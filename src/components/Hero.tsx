@@ -1,7 +1,9 @@
 ﻿import { useEffect, useMemo, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import { useI18n } from '@/i18n/I18nProvider';
 import { parseRichWords } from '@/i18n/rich';
 import { scrollToId, type LenisRef } from '@/lib/scrollTo';
+import { contactPath } from '@/lib/useSectionNav';
 import HeroCanvas from './HeroCanvas';
 import { ArrowIcon } from './icons';
 
@@ -84,10 +86,10 @@ export default function Hero({ lenisRef, reduce }: Props) {
           </p>
 
           <div className="ctas fade-in" style={{ ['--d' as string]: '.78s' }}>
-            <a className="btn btn-gold" href="#contact" onClick={(e) => go(e, 'contact')}>
+            <Link className="btn btn-gold" to={contactPath()}>
               <span>{t('nav.book')}</span>
               <ArrowIcon className="ai" />
-            </a>
+            </Link>
             <a className="btn btn-line" href="#services" onClick={(e) => go(e, 'services')}>
               {t('hero.cta2')}
             </a>

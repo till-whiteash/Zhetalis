@@ -20,7 +20,7 @@ export const SITE: SiteConfig = {
   whatsapp: '6591300969',
   phoneTW: '+886 912 408 256',
   line: '',
-  email: '',
+  email: 'Htaittinye@zhetalis.com',
   booking: '',
   currencies: CURRENCIES,
   prices: {

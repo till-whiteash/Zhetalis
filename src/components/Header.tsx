@@ -1,15 +1,17 @@
 import { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { useI18n } from '@/i18n/I18nProvider';
 import type { SectionId } from '@/data/sections';
-import { scrollToId, type LenisRef } from '@/lib/scrollTo';
-import { useReducedMotion } from '@/hooks/useReducedMotion';
+import type { LenisRef } from '@/lib/scrollTo';
+import { useSectionNav, contactPath } from '@/lib/useSectionNav';
 import logoMark from '@/assets/logo-mark.png';
 import logoWord from '@/assets/logo-word.png';
 import LangPicker from './LangPicker';
 import { MenuIcon } from './icons';
 
 interface Props {
-  active: SectionId;
+  /** null when not on the home page */
+  active: SectionId | null;
   lenisRef: LenisRef;
 }
 
@@ -22,7 +24,11 @@ const NAV_ITEMS: readonly { id: SectionId; key: 'nav.services' | 'nav.approach' 
 
 export default function Header({ active, lenisRef }: Props) {
   const { t } = useI18n();
-  const reduce = useReducedMotion();
+  const { go: goSection, href } = useSectionNav(lenisRef);
+  const { pathname } = useLocation();
+  const onContact = pathname === '/contact';
+  const onAbout = pathname === '/about';
+  const onWork = pathname === '/work';
   const [solid, setSolid] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -41,15 +47,14 @@ export default function Header({ active, lenisRef }: Props) {
   }, [open]);
 
   const go = (e: React.MouseEvent, id: SectionId) => {
-    e.preventDefault();
     setOpen(false);
-    scrollToId(id, lenisRef, reduce);
+    goSection(e, id);
   };
 
   return (
     <header className={`site-header${solid || open ? ' solid' : ''}`}>
       <div className="wrap nav">
-        <a className="brand" href="#top" aria-label="Zhetalis" onClick={(e) => go(e, 'top')}>
+        <a className="brand" href={href('top')} aria-label="Zhetalis" onClick={(e) => go(e, 'top')}>
           <img src={logoMark} width={50} height={39} alt="" />
           <img src={logoWord} width={126} height={20} alt="Zhetalis" />
         </a>
@@ -62,16 +67,37 @@ export default function Header({ active, lenisRef }: Props) {
           {NAV_ITEMS.map((item) => (
             <a
               key={item.id}
-              href={`#${item.id}`}
+              href={href(item.id)}
               className={active === item.id ? 'active' : undefined}
               onClick={(e) => go(e, item.id)}
             >
               {t(item.key)}
             </a>
           ))}
-          <a className="btn btn-gold" href="#contact" onClick={(e) => go(e, 'contact')}>
+          <Link
+            to="/work"
+            className={onWork ? 'active' : undefined}
+            aria-current={onWork ? 'page' : undefined}
+            onClick={() => setOpen(false)}
+          >
+            {t('nav.work')}
+          </Link>
+          <Link
+            to="/about"
+            className={onAbout ? 'active' : undefined}
+            aria-current={onAbout ? 'page' : undefined}
+            onClick={() => setOpen(false)}
+          >
+            {t('nav.about')}
+          </Link>
+          <Link
+            className="btn btn-gold"
+            to={contactPath()}
+            aria-current={onContact ? 'page' : undefined}
+            onClick={() => setOpen(false)}
+          >
             {t('nav.book')}
-          </a>
+          </Link>
         </nav>
 
         <div className="nav-tools">

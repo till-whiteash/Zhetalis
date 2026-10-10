@@ -1,7 +1,10 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useI18n } from '@/i18n/I18nProvider';
 import { CHAPTERS } from '@/data/chapters';
 import { useActiveSection } from '@/hooks/useActiveSelection';
+import { PACKAGE_KEYS } from '@/data/site';
+import { contactPath } from '@/lib/useSectionNav';
 import ServicesCanvas from './ServicesCanvas';
 import { ArrowIcon } from './icons';
 
@@ -85,8 +88,8 @@ export default function Services({ reduce }: { reduce: boolean }) {
           </aside>
 
           <div className="chapters">
-            {CHAPTERS.map((ch) => (
-              <Chapter key={ch.id} chapter={ch} />
+            {CHAPTERS.map((ch, i) => (
+              <Chapter key={ch.id} chapter={ch} service={PACKAGE_KEYS[i]} />
             ))}
           </div>
         </div>
@@ -95,7 +98,7 @@ export default function Services({ reduce }: { reduce: boolean }) {
   );
 }
 
-function Chapter({ chapter }: { chapter: typeof CHAPTERS[number] }) {
+function Chapter({ chapter, service }: { chapter: typeof CHAPTERS[number]; service?: string }) {
   const { t } = useI18n();
   return (
     <article className="chapter" id={chapter.id}>
@@ -105,9 +108,9 @@ function Chapter({ chapter }: { chapter: typeof CHAPTERS[number] }) {
       <ul className="hexlist">
         {chapter.items.map((k) => <li key={k}>{t(k)}</li>)}
       </ul>
-      <a className="arrow-link" href="#contact">
+      <Link className="arrow-link" to={contactPath(service)}>
         <span>{t(chapter.linkKey)}</span> <ArrowIcon className="ai" />
-      </a>
+      </Link>
     </article>
   );
 }

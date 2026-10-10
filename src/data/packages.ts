@@ -3,7 +3,6 @@ import type { PackageKey } from './site';
 
 export interface Package {
   key: PackageKey;
-  serviceId: 's-consult' | 's-design' | 's-tech';
   tagKey: TranslationKey;
   hKey: TranslationKey;
   pKey: TranslationKey;
@@ -14,7 +13,6 @@ export interface Package {
 export const PACKAGES: readonly Package[] = [
   {
     key: 'consult',
-    serviceId: 's-consult',
     tagKey: 'pk0.tag',
     hKey: 'pk0.h',
     pKey: 'pk0.p',
@@ -23,7 +21,6 @@ export const PACKAGES: readonly Package[] = [
   },
   {
     key: 'design',
-    serviceId: 's-design',
     tagKey: 'pk1.tag',
     hKey: 'pk1.h',
     pKey: 'pk1.p',
@@ -32,7 +29,6 @@ export const PACKAGES: readonly Package[] = [
   },
   {
     key: 'build',
-    serviceId: 's-tech',
     tagKey: 'pk2.tag',
     hKey: 'pk2.h',
     pKey: 'pk2.p',

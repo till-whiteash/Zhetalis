@@ -2,7 +2,6 @@ import { useI18n } from '@/i18n/I18nProvider';
 import { SECTION_IDS, RAIL_KEYS, type SectionId } from '@/data/sections';
 import { scrollToId, type LenisRef } from '@/lib/scrollTo';
 import { useReducedMotion } from '@/hooks/useReducedMotion';
-import { useInView } from '@/hooks/useInView';
 
 interface Props {
   active: SectionId;
@@ -12,12 +11,12 @@ interface Props {
 export default function Rail({ active, lenisRef }: Props) {
   const { t } = useI18n();
   const reduce = useReducedMotion();
-  const [contactRef, contactIn] = useInView<HTMLElement>();
+  // Step out of the way once the gold contact band is in view
+  const hide = active === 'contact';
 
   return (
     <>
-      <div ref={contactRef as React.RefObject<HTMLDivElement>} style={{ display: 'none' }} />
-      <nav className={`rail${contactIn ? ' hide' : ''}`} aria-label="Sections">
+      <nav className={`rail${hide ? ' hide' : ''}`} aria-label="Sections">
         {SECTION_IDS.map((id, i) => (
           <a
             key={id}

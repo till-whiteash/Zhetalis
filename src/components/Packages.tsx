@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useI18n } from '@/i18n/I18nProvider';
 import { SITE, CURRENCIES, type Currency } from '@/data/site';
 import { PACKAGES } from '@/data/packages';
 import { useInView } from '@/hooks/useInView';
+import { contactPath } from '@/lib/useSectionNav';
 
 const LOCALES: Record<string, string> = {
   en: 'en', 'zh-Hans': 'zh-CN', 'zh-Hant': 'zh-TW',
@@ -21,11 +23,7 @@ function guessCurrency(lang: string): Currency {
   return idx >= 0 ? (guess as Currency) : SITE.currencies[SITE.currencies.length - 1]!;
 }
 
-interface Props {
-  onPickPackage: (serviceId: string) => void;
-}
-
-export default function Packages({ onPickPackage }: Props) {
+export default function Packages() {
   const { t, lang } = useI18n();
   const [headRef, headIn] = useInView<HTMLDivElement>({ rootMargin: '0px 0px -10% 0px' });
   const [listRef, listIn] = useInView<HTMLDivElement>({ rootMargin: '0px 0px -10% 0px' });
@@ -97,12 +95,9 @@ export default function Packages({ onPickPackage }: Props) {
                 <ul className="hexlist">
                   {pkg.items.map((k) => <li key={k}>{t(k)}</li>)}
                 </ul>
-                <button
-                  className="btn btn-line"
-                  onClick={() => onPickPackage(pkg.serviceId)}
-                >
+                <Link className="btn btn-line" to={contactPath(pkg.key)}>
                   {t(pkg.btnKey)}
-                </button>
+                </Link>
               </article>
             );
           })}
