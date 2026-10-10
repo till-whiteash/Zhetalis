@@ -8,6 +8,31 @@ import Contact from '@/components/Contact';
 import { ArrowIcon } from '@/components/icons';
 import logoMark from '@/assets/logo-mark.png';
 
+type AbStar = { x: number; y: number; s?: number; o?: number; d?: number; delay?: number; spark?: boolean };
+// Decorative star field for the About hero only (positions are % of the hero box).
+const AB_STARS: AbStar[] = [
+  { x: 46, y: 16, o: 0.6, d: 4.0, delay: 0.2 },
+  { x: 52, y: 30, s: 1.3, o: 0.8, d: 5.0, delay: 0.6 },
+  { x: 58, y: 12, s: 0.8, o: 0.45, d: 4.5, delay: 1.1 },
+  { x: 63, y: 40, o: 0.6, d: 4.0, delay: 0.3 },
+  { x: 49, y: 52, s: 0.9, o: 0.5, d: 5.0, delay: 1.4 },
+  { x: 55, y: 68, s: 1.1, o: 0.7, d: 4.2, delay: 0.8 },
+  { x: 60, y: 82, s: 0.8, o: 0.4, d: 5.0, delay: 0.2 },
+  { x: 68, y: 22, o: 0.6, d: 4.0, delay: 1.6 },
+  { x: 70, y: 8,  s: 0.9, o: 0.5, d: 4.8, delay: 0.3 },
+  { x: 92, y: 18, s: 1.2, o: 0.75, d: 4.5, delay: 0.4 },
+  { x: 88, y: 34, s: 0.9, o: 0.5, d: 5.0, delay: 1.0 },
+  { x: 95, y: 48, o: 0.6, d: 4.0, delay: 0.7 },
+  { x: 90, y: 64, s: 1.3, o: 0.8, d: 4.3, delay: 0.2 },
+  { x: 84, y: 80, s: 0.9, o: 0.5, d: 5.0, delay: 1.2 },
+  { x: 78, y: 90, o: 0.55, d: 4.6, delay: 0.5 },
+  { x: 73, y: 58, s: 0.8, o: 0.4, d: 5.0, delay: 1.5 },
+  { x: 97, y: 74, s: 1.1, o: 0.65, d: 4.2, delay: 0.9 },
+  { x: 66, y: 30, o: 0.9, d: 5.0, delay: 0.5, spark: true },
+  { x: 86, y: 52, o: 0.85, d: 6.0, delay: 1.2, spark: true },
+  { x: 94, y: 86, s: 0.9, o: 0.8, d: 5.5, delay: 0.2, spark: true },
+];
+
 const PRINCIPLES = ['ab.p0', 'ab.p1', 'ab.p2', 'ab.p3', 'ab.p4'] as const;
 const OFFICES = [
   { key: 'off.sgHQ', city: 'off.sg' },
@@ -29,6 +54,22 @@ export default function AboutPage() {
   return (
     <main className="about">
       <section className="ab-hero">
+        <div className="ab-stars" aria-hidden="true">
+          {AB_STARS.map((st, i) => (
+            <i
+              key={i}
+              className={st.spark ? 'spark' : undefined}
+              style={{
+                left: `${st.x}%`,
+                top: `${st.y}%`,
+                ['--s' as never]: st.s ?? 1,
+                ['--o' as never]: st.o ?? 0.6,
+                ['--d' as never]: `${st.d ?? 4.5}s`,
+                ['--delay' as never]: `${st.delay ?? 0}s`,
+              }}
+            />
+          ))}
+        </div>
         <div className="wrap ab-hero-grid">
           <div className="ab-hero-text">
             <p className="label">{t('ab.title')}</p>
