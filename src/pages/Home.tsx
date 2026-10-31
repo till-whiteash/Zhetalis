@@ -6,6 +6,7 @@ import Hero from '@/components/Hero';
 import Finder from '@/components/Finder';
 import Manifesto from '@/components/Manifesto';
 import Services from '@/components/Services';
+import HomeWork from '@/components/HomeWork';
 import Approach from '@/components/Approach';
 import Packages from '@/components/Packages';
 import Faq from '@/components/Faq';
@@ -26,6 +27,7 @@ export default function Home({ active, lenisRef, reduce }: Props) {
         <Finder />
         <Manifesto />
         <Services reduce={reduce} />
+        <HomeWork />
         <Approach />
         <Packages />
         <Faq />

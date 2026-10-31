@@ -80,7 +80,7 @@ function CaseStudy({ p }: { p: Project }) {
           </div>
         </div>
 
-        <Figure shot={p.diagram} zoom />
+        {p.diagram && <Figure shot={p.diagram} zoom />}
 
         <div className="wk-row">
           <h3 className="wk-side">{t(p.flowTitle)}</h3>
@@ -116,9 +116,11 @@ function CaseStudy({ p }: { p: Project }) {
           </div>
         </div>
 
-        <div className="wk-gallery">
-          {p.gallery.map((s) => <Figure key={s.cap} shot={s} />)}
-        </div>
+        {p.gallery.length > 0 && (
+          <div className="wk-gallery">
+            {p.gallery.map((s) => <Figure key={s.cap} shot={s} />)}
+          </div>
+        )}
       </div>
     </article>
   );
