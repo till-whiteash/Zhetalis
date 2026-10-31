@@ -16,8 +16,9 @@ export default function Finder() {
   const [ref, inView] = useInView<HTMLDivElement>({ rootMargin: '0px 0px -10% 0px' });
 
   const key = `a${active}` as const;
-  // A-C explain the matching service; D goes straight to the brief with consultation picked
-  const linkTo = active === 3 ? contactPath('consult') : `/services#svc-${active}`;
+  // A and C explain the matching service; B (student coaching) and D go straight to the brief
+  const LINKS = ['/services#svc-0', contactPath(), '/services#svc-2', contactPath('consult')] as const;
+  const linkTo = LINKS[active];
 
   return (
     <section className="section" id="find">
