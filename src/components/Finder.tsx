@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useI18n } from '@/i18n/I18nProvider';
 import { useInView } from '@/hooks/useInView';
 import { ArrowIcon } from './icons';
+import { contactPath } from '@/lib/useSectionNav';
 
 const INDICES = [0, 1, 2, 3] as const;
 type FinderIndex = (typeof INDICES)[number];
@@ -15,7 +16,8 @@ export default function Finder() {
   const [ref, inView] = useInView<HTMLDivElement>({ rootMargin: '0px 0px -10% 0px' });
 
   const key = `a${active}` as const;
-  const linkTarget = active === 3 ? 'svc-0' : `svc-${active}`;
+  // A-C explain the matching service; D goes straight to the brief with consultation picked
+  const linkTo = active === 3 ? contactPath('consult') : `/services#svc-${active}`;
 
   return (
     <section className="section" id="find">
@@ -46,7 +48,7 @@ export default function Finder() {
             <p className="label">{t(`${key}.tag`)}</p>
             <h3>{t(`${key}.title`)}</h3>
             <p>{t(`${key}.body`)}</p>
-            <Link className="arrow-link" to={`/services#${linkTarget}`}>
+            <Link className="arrow-link" to={linkTo}>
               {t(`${key}.link`)} <ArrowIcon />
             </Link>
           </div>
