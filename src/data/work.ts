@@ -87,7 +87,7 @@ export const PROJECTS: Project[] = [
     flowTitle: 'wk.flowSh',
     flow: ['wk.sh.s0', 'wk.sh.s1', 'wk.sh.s2', 'wk.sh.s3', 'wk.sh.s4', 'wk.sh.s5'],
     safety: 'wk.sh.safety',
-    design: ['wk.sh.d0', 'wk.sh.d1', 'wk.sh.d2', 'wk.sh.d3', 'wk.sh.d4', 'wk.sh.d5'],
+    design: ['wk.sh.d0', 'wk.sh.d1', 'wk.sh.d2', 'wk.sh.d3', 'wk.sh.d4'],
     results: [
       { fig: '17/18', text: 'wk.sh.r0.t' },
       { text: 'wk.sh.r1.t' },
