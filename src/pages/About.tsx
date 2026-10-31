@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useI18n } from '@/i18n/I18nProvider';
 import { TEAM } from '@/data/team';
+import { STEPS } from '@/data/steps';
 import Reveal from '@/components/Reveal';
 import { PROJECTS } from '@/data/work';
 import Contact from '@/components/Contact';
@@ -33,7 +34,9 @@ const AB_STARS: AbStar[] = [
   { x: 94, y: 86, s: 0.9, o: 0.8, d: 5.5, delay: 0.2, spark: true },
 ];
 
-const PRINCIPLES = ['ab.p0', 'ab.p1', 'ab.p2', 'ab.p3', 'ab.p4'] as const;
+// Same order as the company portfolio: summary, team, core services, capabilities, projects, method, contact
+const CORE = ['ab.cs0', 'ab.cs1', 'ab.cs2'] as const;
+const CAPS = ['ab.cap0', 'ab.cap1', 'ab.cap2', 'ab.cap3', 'ab.cap4', 'ab.cap5'] as const;
 const OFFICES = [
   { key: 'off.sgHQ', city: 'off.sg' },
   { key: 'off.tw', city: 'off.tw' },
@@ -74,51 +77,110 @@ export default function AboutPage() {
           <div className="ab-hero-text">
             <p className="label">{t('ab.title')}</p>
             <h1>{t('ab.h1')}</h1>
-            <p className="lede">{t('hero.sub')}</p>
+            <p className="lede">{t('ab.lede')}</p>
+            <p className="ab-motto" lang="la">Futurum prospice, Mens et Manus</p>
           </div>
           <img className="ab-mark" src={logoMark} alt="" width={280} height={220} />
         </div>
       </section>
 
-      {/* Mens et Manus */}
+      {/* The team */}
       <section className="section">
         <div className="wrap">
           <Reveal className="head">
-            <p className="label" lang="la">Futurum prospice, Mens et Manus</p>
-            <h2 className="h2">{t('ab.motto.h')}</h2>
-            <p className="lede">{t('ab.motto.p')}</p>
+            <p className="label">{t('ab.team.label')}</p>
+            <h2 className="h2">{t('ab.team.h2')}</h2>
           </Reveal>
-          <Reveal className="mm">
-            <article>
-              <p className="mm-word" lang="la">Mens</p>
-              <h3>{t('ab.mind.h')}</h3>
-              <p>{t('ab.mind.p')}</p>
-            </article>
-            <article>
-              <p className="mm-word" lang="la">Manus</p>
-              <h3>{t('ab.hand.h')}</h3>
-              <p>{t('ab.hand.p')}</p>
-            </article>
-          </Reveal>
-          <Reveal>
-            <p className="ab-statement">{t('mani.text').replace(/[[\]]/g, '')}</p>
+          <Reveal className="team">
+            {TEAM.map((m) => (
+              <article key={m.name}>
+                {m.photo
+                  ? <img src={m.photo} alt={m.name} width={240} height={240} loading="lazy" />
+                  : <span className="avatar" aria-hidden="true">{initials(m.name)}</span>}
+                <h3>{m.name}</h3>
+                <p className="role">{m.role}{m.base ? ` · ${m.base}` : ''}</p>
+                {m.bio && <p>{m.bio}</p>}
+                {m.linkedin && <a href={m.linkedin} target="_blank" rel="noopener">LinkedIn</a>}
+              </article>
+            ))}
           </Reveal>
         </div>
       </section>
 
-      {/* Principles */}
+      {/* Core services */}
       <section className="section">
         <div className="wrap">
           <Reveal className="head">
-            <p className="label">{t('ab.pr.label')}</p>
-            <h2 className="h2">{t('ab.pr.h2')}</h2>
+            <p className="label">{t('ab.cs.label')}</p>
+            <h2 className="h2">{t('ab.cs.h2')}</h2>
           </Reveal>
-          <Reveal className="principles">
-            {PRINCIPLES.map((k, i) => (
+          <Reveal className="ab-core">
+            {CORE.map((k, i) => (
               <article key={k}>
                 <span className="k">{String(i + 1).padStart(2, '0')}</span>
                 <h3>{t(`${k}.h`)}</h3>
                 <p>{t(`${k}.p`)}</p>
+              </article>
+            ))}
+          </Reveal>
+          <Link className="arrow-link" to="/services">
+            <span>{t('hero.cta2')}</span> <ArrowIcon className="ai" />
+          </Link>
+        </div>
+      </section>
+
+      {/* Capabilities */}
+      <section className="section">
+        <div className="wrap">
+          <Reveal className="head">
+            <p className="label">{t('ab.cap.label')}</p>
+            <h2 className="h2">{t('ab.cap.h2')}</h2>
+          </Reveal>
+          <Reveal className="ab-caps">
+            {CAPS.map((k) => (
+              <article key={k}>
+                <h3>{t(`${k}.h`)}</h3>
+                <p>{t(`${k}.p`)}</p>
+              </article>
+            ))}
+          </Reveal>
+        </div>
+      </section>
+
+      {/* Projects */}
+      <section className="section">
+        <div className="wrap">
+          <Reveal className="head">
+            <p className="label">{t('ab.work.label')}</p>
+            <h2 className="h2">{t('ab.work.h2')}</h2>
+          </Reveal>
+          <Reveal className="wk-teasers">
+            {PROJECTS.map((p) => (
+              <Link className="wk-teaser" key={p.id} to={`/work#${p.id}`}>
+                <span className={`thumb ${p.cover.kind ?? 'photo'}`}><img src={p.cover.src} width={p.cover.w} height={p.cover.h} alt="" loading="lazy" /></span>
+                <span className="ev">{t(`${p.k}.for`)}</span>
+                <b lang="en">{p.name}</b>
+                <span>{t(`${p.k}.tag`)}</span>
+                <span className="arrow-link"><span>{t('wk.read')}</span> <ArrowIcon className="ai" /></span>
+              </Link>
+            ))}
+          </Reveal>
+        </div>
+      </section>
+
+      {/* Methodology */}
+      <section className="section">
+        <div className="wrap">
+          <Reveal className="head">
+            <p className="label">{t('ab.pr.label')}</p>
+            <h2 className="h2">{t('ab.meth.h2')}</h2>
+          </Reveal>
+          <Reveal className="ab-core ab-steps">
+            {STEPS.map((s) => (
+              <article key={s.n}>
+                <span className="k">{s.n}</span>
+                <h3>{t(s.hKey)}</h3>
+                <p>{t(s.pKey)}</p>
               </article>
             ))}
           </Reveal>
@@ -128,7 +190,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Offices */}
+      {/* Where we are */}
       <section className="section">
         <div className="wrap ab-where">
           <Reveal className="head">
@@ -142,51 +204,6 @@ export default function AboutPage() {
                 <b>{t(o.key)}</b>
                 <span>{t('ct.hoursVal')}</span>
               </div>
-            ))}
-          </Reveal>
-        </div>
-      </section>
-
-      {/* Team: hidden until src/data/team.ts has people in it */}
-      {TEAM.length > 0 && (
-        <section className="section">
-          <div className="wrap">
-            <Reveal className="head">
-              <p className="label">{t('ab.team.label')}</p>
-              <h2 className="h2">{t('ab.team.h2')}</h2>
-            </Reveal>
-            <Reveal className="team">
-              {TEAM.map((m) => (
-                <article key={m.name}>
-                  {m.photo
-                    ? <img src={m.photo} alt="" />
-                    : <span className="avatar" aria-hidden="true">{initials(m.name)}</span>}
-                  <h3>{m.name}</h3>
-                  <p className="role">{m.role}{m.base ? ` · ${m.base}` : ''}</p>
-                  {m.bio && <p>{m.bio}</p>}
-                  {m.linkedin && <a href={m.linkedin} target="_blank" rel="noopener">LinkedIn</a>}
-                </article>
-              ))}
-            </Reveal>
-          </div>
-        </section>
-      )}
-
-      {/* Selected work */}
-      <section className="section">
-        <div className="wrap">
-          <Reveal className="head">
-            <p className="label">{t('ab.work.label')}</p>
-            <h2 className="h2">{t('ab.work.h2')}</h2>
-          </Reveal>
-          <Reveal className="wk-teasers">
-            {PROJECTS.map((p) => (
-              <Link className="wk-teaser" key={p.id} to={`/work#${p.id}`}>
-                <span className={`thumb ${p.cover.kind ?? 'photo'}`}><img src={p.cover.src} width={p.cover.w} height={p.cover.h} alt="" loading="lazy" /></span>
-                <b lang="en">{p.name}</b>
-                <span>{t(`${p.k}.tag`)}</span>
-                <span className="arrow-link"><span>{t('wk.read')}</span> <ArrowIcon className="ai" /></span>
-              </Link>
             ))}
           </Reveal>
         </div>

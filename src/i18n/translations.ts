@@ -1987,16 +1987,16 @@ const source = {
                      "新加坡與高雄"
                  ],
     "ab.where.p":  [
-                     "Zhetalis was incorporated in Singapore on 8 October 2026. Our registered address is 16 Spottiswoode Park Road, Singapore 088661, and part of the team works from Kaohsiung, Taiwan. Both are on UTC+8.",
-                     "Zhetalis 于 2026 年 10 月 8 日在新加坡注册成立。注册地址为 16 Spottiswoode Park Road, Singapore 088661，部分成员在台湾高雄工作。两地都在 UTC+8 时区。",
-                     "Zhetalis 8 अक्टूबर 2026 को सिंगापुर में निगमित हुई। हमारा पंजीकृत पता 16 Spottiswoode Park Road, Singapore 088661 है, और टीम का एक हिस्सा काओशुंग, ताइवान से काम करता है। दोनों जगह UTC+8 पर हैं।",
-                     "تأسست Zhetalis في سنغافورة في 8 أكتوبر 2026. عنواننا المسجّل هو 16 Spottiswoode Park Road, Singapore 088661، ويعمل جزء من الفريق من كاوهسيونغ في تايوان. كلاهما على توقيت UTC+8.",
-                     "Zhetalis 於 2026 年 10 月 8 日在新加坡註冊成立。註冊地址為 16 Spottiswoode Park Road, Singapore 088661，部分成員在台灣高雄工作。兩地皆為 UTC+8 時區。"
+                     "Our registered address is 16 Spottiswoode Park Road, Singapore 088661, and part of the team works from Kaohsiung, Taiwan. Both are on UTC+8.",
+                     "注册地址为 16 Spottiswoode Park Road, Singapore 088661，部分成员在台湾高雄工作。两地都在 UTC+8 时区。",
+                     "हमारा पंजीकृत पता 16 Spottiswoode Park Road, Singapore 088661 है, और टीम का एक हिस्सा काओशुंग, ताइवान से काम करता है। दोनों जगह UTC+8 पर हैं।",
+                     "عنواننا المسجّل هو 16 Spottiswoode Park Road, Singapore 088661، ويعمل جزء من الفريق من كاوهسيونغ في تايوان. كلاهما على توقيت UTC+8.",
+                     "註冊地址為 16 Spottiswoode Park Road, Singapore 088661，部分成員在台灣高雄工作。兩地皆為 UTC+8 時區。"
                  ],
     "ab.team.label":  [
-                     "People",
+                     "The team",
                      "团队",
-                     "लोग",
+                     "टीम",
                      "الفريق",
                      "團隊"
                  ],
@@ -2616,6 +2616,174 @@ const source = {
                      "परामर्श से शुरू करें, पूरा डिज़ाइन जोड़ें, या हमें बनाने और चलाने दें। हर कोटेशन काम शुरू होने से पहले लिखित में दिया जाता है। आम सवालों के जवाब नीचे हैं।",
                      "ابدأ باستشارة، أو أضف تصميمًا كاملًا، أو دعنا نبني النظام ونشغّله. يُقدَّم كل عرض سعر كتابيًا قبل بدء العمل. ستجد إجابات الأسئلة الشائعة أدناه.",
                      "可以從諮詢開始，加上完整設計，或交由我們開發並維護。所有報價都會在開工前以書面確認。常見問題見下方。"
+                 ],
+    "ab.lede":  [
+                     "Zhetalis was incorporated in Singapore on 8 October 2026 by a group of young engineers from Southeast Asia. We do engineering consultancy and build software and hardware for clients anywhere.",
+                     "Zhetalis 由一群来自东南亚的年轻工程师于 2026 年 10 月 8 日在新加坡注册成立。我们提供工程咨询，并为世界各地的客户开发软件与硬件。",
+                     "Zhetalis को दक्षिण-पूर्व एशिया के युवा इंजीनियरों के एक समूह ने 8 अक्टूबर 2026 को सिंगापुर में निगमित किया। हम इंजीनियरिंग परामर्श देते हैं और दुनिया भर के क्लाइंट के लिए सॉफ़्टवेयर और हार्डवेयर बनाते हैं।",
+                     "أسّس مجموعة من المهندسين الشباب من جنوب شرق آسيا شركة Zhetalis في سنغافورة في 8 أكتوبر 2026. نقدم الاستشارات الهندسية ونبني البرمجيات والعتاد لعملاء في أي مكان.",
+                     "Zhetalis 由一群來自東南亞的年輕工程師於 2026 年 10 月 8 日在新加坡註冊成立。我們提供工程諮詢，並為世界各地的客戶開發軟體與硬體。"
+                 ],
+    "ab.cs.label":  [
+                     "Core services",
+                     "核心服务",
+                     "मुख्य सेवाएँ",
+                     "الخدمات الأساسية",
+                     "核心服務"
+                 ],
+    "ab.cs.h2":  [
+                     "What we take on",
+                     "我们承接的工作",
+                     "हम क्या काम लेते हैं",
+                     "ما نتولاه",
+                     "我們承接的工作"
+                 ],
+    "ab.cs0.h":  [
+                     "Custom software and web development",
+                     "定制软件与网站开发",
+                     "कस्टम सॉफ़्टवेयर और वेब डेवलपमेंट",
+                     "تطوير البرمجيات والمواقع حسب الطلب",
+                     "客製軟體與網站開發"
+                 ],
+    "ab.cs0.p":  [
+                     "Websites, web apps and mobile apps, built around how your business runs.",
+                     "根据您的业务运作方式打造网站、网页应用和移动应用。",
+                     "वेबसाइट, वेब ऐप और मोबाइल ऐप, जो आपके बिज़नेस के काम करने के तरीके के हिसाब से बनाए जाते हैं।",
+                     "مواقع وتطبيقات ويب وتطبيقات جوال، مبنية حول طريقة عمل شركتك.",
+                     "依照您的業務運作方式打造網站、網頁應用與行動應用。"
+                 ],
+    "ab.cs1.h":  [
+                     "IoT and embedded systems",
+                     "物联网与嵌入式系统",
+                     "IoT और एम्बेडेड सिस्टम",
+                     "إنترنت الأشياء والأنظمة المدمجة",
+                     "物聯網與嵌入式系統"
+                 ],
+    "ab.cs1.p":  [
+                     "Sensors, microcontrollers and the software that collects and uses their data.",
+                     "传感器、微控制器，以及收集和使用这些数据的软件。",
+                     "सेंसर, माइक्रोकंट्रोलर, और वह सॉफ़्टवेयर जो उनका डेटा इकट्ठा करता और इस्तेमाल करता है।",
+                     "المستشعرات والمتحكمات الدقيقة والبرمجيات التي تجمع بياناتها وتستخدمها.",
+                     "感測器、微控制器，以及收集與運用這些資料的軟體。"
+                 ],
+    "ab.cs2.h":  [
+                     "Product design and strategy",
+                     "产品设计与策略",
+                     "प्रोडक्ट डिज़ाइन और रणनीति",
+                     "تصميم المنتجات والاستراتيجية",
+                     "產品設計與策略"
+                 ],
+    "ab.cs2.p":  [
+                     "Working out what to build, sketching it and testing it with users before engineering starts.",
+                     "在开发之前，先确定要做什么、画出草图并与用户一起测试。",
+                     "इंजीनियरिंग शुरू होने से पहले तय करना कि क्या बनाना है, उसका खाका बनाना और यूज़र्स के साथ उसे परखना।",
+                     "تحديد ما يجب بناؤه ورسمه واختباره مع المستخدمين قبل بدء العمل الهندسي.",
+                     "在開發之前，先確定要做什麼、畫出草圖並與使用者一起測試。"
+                 ],
+    "ab.cap.label":  [
+                     "Capabilities",
+                     "能力",
+                     "क्षमताएँ",
+                     "القدرات",
+                     "能力"
+                 ],
+    "ab.cap.h2":  [
+                     "What the team can do",
+                     "团队能做什么",
+                     "टीम क्या कर सकती है",
+                     "ما يستطيع الفريق فعله",
+                     "團隊能做什麼"
+                 ],
+    "ab.cap0.h":  [
+                     "Full-stack engineering",
+                     "全栈开发",
+                     "फ़ुल-स्टैक इंजीनियरिंग",
+                     "هندسة الواجهات الأمامية والخلفية",
+                     "全端開發"
+                 ],
+    "ab.cap0.p":  [
+                     "Backends in Node.js, Python and Flask, with front ends in React, Tailwind CSS and Bootstrap.",
+                     "使用 Node.js、Python 和 Flask 开发后端，前端采用 React、Tailwind CSS 和 Bootstrap。",
+                     "Node.js, Python और Flask में बैकएंड, और React, Tailwind CSS व Bootstrap में फ़्रंटएंड।",
+                     "واجهات خلفية بـ Node.js وPython وFlask، وواجهات أمامية بـ React وTailwind CSS وBootstrap.",
+                     "使用 Node.js、Python 與 Flask 開發後端，前端採用 React、Tailwind CSS 與 Bootstrap。"
+                 ],
+    "ab.cap1.h":  [
+                     "Edge computing and sensors",
+                     "边缘计算与传感器",
+                     "एज कंप्यूटिंग और सेंसर",
+                     "الحوسبة الطرفية والمستشعرات",
+                     "邊緣運算與感測器"
+                 ],
+    "ab.cap1.p":  [
+                     "ESP32 and Arduino devices that log data in real time, keep working offline, and run on low power or solar.",
+                     "基于 ESP32 和 Arduino 的设备，可实时记录数据、离线持续运行，并以低功耗或太阳能供电。",
+                     "ESP32 और Arduino डिवाइस जो रियल टाइम में डेटा लॉग करते हैं, ऑफ़लाइन भी काम करते हैं, और कम बिजली या सोलर पर चलते हैं।",
+                     "أجهزة ESP32 وArduino تسجّل البيانات لحظيًا، وتواصل العمل دون اتصال، وتعمل بطاقة منخفضة أو بالطاقة الشمسية.",
+                     "基於 ESP32 與 Arduino 的裝置，可即時記錄資料、離線持續運作，並以低功耗或太陽能供電。"
+                 ],
+    "ab.cap2.h":  [
+                     "Industrial monitoring",
+                     "工业监测",
+                     "औद्योगिक मॉनिटरिंग",
+                     "المراقبة الصناعية",
+                     "工業監測"
+                 ],
+    "ab.cap2.p":  [
+                     "Rugged sensor enclosures, MQTT and LoRa links, and telemetry for remote sites. We also 3D print and prototype the hardware.",
+                     "坚固的传感器外壳、MQTT 与 LoRa 通信，以及偏远现场的遥测。我们也自行 3D 打印并制作硬件原型。",
+                     "मज़बूत सेंसर एनक्लोज़र, MQTT और LoRa लिंक, और दूरदराज़ साइटों के लिए टेलीमेट्री। हम हार्डवेयर को 3D प्रिंट और प्रोटोटाइप भी करते हैं।",
+                     "حاويات مستشعرات متينة، واتصالات MQTT وLoRa، وقياس عن بُعد للمواقع النائية. نطبع العتاد بتقنية ثلاثية الأبعاد ونصنع نماذجه الأولية أيضًا.",
+                     "堅固的感測器外殼、MQTT 與 LoRa 通訊，以及偏遠現場的遙測。我們也自行 3D 列印並製作硬體原型。"
+                 ],
+    "ab.cap3.h":  [
+                     "Cloud and DevOps",
+                     "云端与 DevOps",
+                     "क्लाउड और DevOps",
+                     "السحابة وDevOps",
+                     "雲端與 DevOps"
+                 ],
+    "ab.cap3.p":  [
+                     "AWS and Linux servers, MySQL and PostgreSQL databases, and automated CI/CD pipelines.",
+                     "AWS 与 Linux 服务器、MySQL 与 PostgreSQL 数据库，以及自动化 CI/CD 流程。",
+                     "AWS और Linux सर्वर, MySQL और PostgreSQL डेटाबेस, और ऑटोमेटेड CI/CD पाइपलाइन।",
+                     "خوادم AWS وLinux، وقواعد بيانات MySQL وPostgreSQL، ومسارات CI/CD مؤتمتة.",
+                     "AWS 與 Linux 伺服器、MySQL 與 PostgreSQL 資料庫，以及自動化 CI/CD 流程。"
+                 ],
+    "ab.cap4.h":  [
+                     "UI/UX wireframes and prototypes",
+                     "UI/UX 线框图与原型",
+                     "UI/UX वायरफ़्रेम और प्रोटोटाइप",
+                     "نماذج UI/UX الأولية والإطارات السلكية",
+                     "UI/UX 線框圖與原型"
+                 ],
+    "ab.cap4.p":  [
+                     "Wireframes and clickable prototypes in Figma, Miro, Stitch and Adobe, so you can test an idea before paying for engineering.",
+                     "使用 Figma、Miro、Stitch 和 Adobe 制作线框图与可点击原型，让您在投入开发费用前先验证想法。",
+                     "Figma, Miro, Stitch और Adobe में वायरफ़्रेम और क्लिक करने लायक प्रोटोटाइप, ताकि इंजीनियरिंग पर खर्च करने से पहले आप आइडिया परख सकें।",
+                     "إطارات سلكية ونماذج قابلة للنقر في Figma وMiro وStitch وAdobe، لتختبر الفكرة قبل أن تدفع مقابل الهندسة.",
+                     "使用 Figma、Miro、Stitch 與 Adobe 製作線框圖與可點擊原型，讓您在投入開發費用前先驗證想法。"
+                 ],
+    "ab.cap5.h":  [
+                     "Technical consulting",
+                     "技术咨询",
+                     "तकनीकी परामर्श",
+                     "الاستشارات التقنية",
+                     "技術諮詢"
+                 ],
+    "ab.cap5.p":  [
+                     "Architecture reviews, performance tuning, and updating older systems.",
+                     "架构评审、性能优化，以及旧系统升级。",
+                     "आर्किटेक्चर रिव्यू, परफ़ॉर्मेंस सुधार, और पुराने सिस्टम को अपडेट करना।",
+                     "مراجعات البنية، وتحسين الأداء، وتحديث الأنظمة القديمة.",
+                     "架構審查、效能調校，以及舊系統升級。"
+                 ],
+    "ab.meth.h2":  [
+                     "From the first call to handover",
+                     "从第一次通话到交接",
+                     "पहली कॉल से हैंडओवर तक",
+                     "من أول مكالمة حتى التسليم",
+                     "從第一次通話到交接"
                  ],
 };
 
