@@ -15,20 +15,18 @@ interface Props {
   lenisRef: LenisRef;
 }
 
-const NAV_ITEMS: readonly { id: SectionId; key: 'nav.services' | 'nav.approach' | 'nav.packages' | 'nav.faq' }[] = [
-  { id: 'services', key: 'nav.services' },
-  { id: 'approach', key: 'nav.approach' },
-  { id: 'packages', key: 'nav.packages' },
-  { id: 'faq',      key: 'nav.faq' },
-];
+const NAV_ITEMS = [
+  { to: '/services', key: 'nav.services' },
+  { to: '/packages', key: 'nav.packages' },
+  { to: '/work',     key: 'nav.work' },
+  { to: '/about',    key: 'nav.about' },
+] as const;
 
-export default function Header({ active, lenisRef }: Props) {
+export default function Header({ lenisRef }: Props) {
   const { t } = useI18n();
   const { go: goSection, href } = useSectionNav(lenisRef);
   const { pathname } = useLocation();
   const onContact = pathname === '/contact';
-  const onAbout = pathname === '/about';
-  const onWork = pathname === '/work';
   const [solid, setSolid] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -46,7 +44,7 @@ export default function Header({ active, lenisRef }: Props) {
     return () => document.removeEventListener('keydown', onKey);
   }, [open]);
 
-  const go = (e: React.MouseEvent, id: SectionId) => {
+  const go = (e: React.MouseEvent, id: SectionId | 'top') => {
     setOpen(false);
     goSection(e, id);
   };
@@ -64,32 +62,20 @@ export default function Header({ active, lenisRef }: Props) {
           data-open={open ? 'true' : 'false'}
           aria-label="Main"
         >
-          {NAV_ITEMS.map((item) => (
-            <a
-              key={item.id}
-              href={href(item.id)}
-              className={active === item.id ? 'active' : undefined}
-              onClick={(e) => go(e, item.id)}
-            >
-              {t(item.key)}
-            </a>
-          ))}
-          <Link
-            to="/work"
-            className={onWork ? 'active' : undefined}
-            aria-current={onWork ? 'page' : undefined}
-            onClick={() => setOpen(false)}
-          >
-            {t('nav.work')}
-          </Link>
-          <Link
-            to="/about"
-            className={onAbout ? 'active' : undefined}
-            aria-current={onAbout ? 'page' : undefined}
-            onClick={() => setOpen(false)}
-          >
-            {t('nav.about')}
-          </Link>
+          {NAV_ITEMS.map((item) => {
+            const here = pathname === item.to;
+            return (
+              <Link
+                key={item.to}
+                to={item.to}
+                className={here ? 'active' : undefined}
+                aria-current={here ? 'page' : undefined}
+                onClick={() => setOpen(false)}
+              >
+                {t(item.key)}
+              </Link>
+            );
+          })}
           <Link
             className="btn btn-gold"
             to={contactPath()}

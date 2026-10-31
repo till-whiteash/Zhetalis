@@ -14,6 +14,8 @@ import Home from '@/pages/Home';
 import ContactPage from '@/pages/Contact';
 import AboutPage from '@/pages/About';
 import WorkPage from '@/pages/Work';
+import ServicesPage from '@/pages/Services';
+import PackagesPage from '@/pages/Packages';
 
 export default function App() {
   const reduce = useReducedMotion();
@@ -74,6 +76,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home active={active} lenisRef={lenisRef} reduce={reduce} />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/services" element={<ServicesPage reduce={reduce} />} />
+        <Route path="/packages" element={<PackagesPage />} />
         <Route path="/work" element={<WorkPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />

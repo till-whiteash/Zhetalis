@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useI18n } from '@/i18n/I18nProvider';
 import { useInView } from '@/hooks/useInView';
 import { ArrowIcon } from './icons';
@@ -45,9 +46,9 @@ export default function Finder() {
             <p className="label">{t(`${key}.tag`)}</p>
             <h3>{t(`${key}.title`)}</h3>
             <p>{t(`${key}.body`)}</p>
-            <a className="arrow-link" href={`#${linkTarget}`}>
+            <Link className="arrow-link" to={`/services#${linkTarget}`}>
               {t(`${key}.link`)} <ArrowIcon />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

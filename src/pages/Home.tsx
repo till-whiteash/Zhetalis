@@ -5,11 +5,7 @@ import Rail from '@/components/Rail';
 import Hero from '@/components/Hero';
 import Finder from '@/components/Finder';
 import Manifesto from '@/components/Manifesto';
-import Services from '@/components/Services';
 import HomeWork from '@/components/HomeWork';
-import Approach from '@/components/Approach';
-import Packages from '@/components/Packages';
-import Faq from '@/components/Faq';
 import Contact from '@/components/Contact';
 
 interface Props {
@@ -26,11 +22,7 @@ export default function Home({ active, lenisRef, reduce }: Props) {
         <Hero lenisRef={lenisRef} reduce={reduce} />
         <Finder />
         <Manifesto />
-        <Services reduce={reduce} />
         <HomeWork />
-        <Approach />
-        <Packages />
-        <Faq />
         <Contact />
       </main>
     </>

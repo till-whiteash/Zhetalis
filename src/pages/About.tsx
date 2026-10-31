@@ -122,7 +122,7 @@ export default function AboutPage() {
               </article>
             ))}
           </Reveal>
-          <Link className="arrow-link" to="/#approach">
+          <Link className="arrow-link" to="/services#approach">
             <span>{t('ab.how')}</span> <ArrowIcon className="ai" />
           </Link>
         </div>

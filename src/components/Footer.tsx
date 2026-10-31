@@ -42,18 +42,18 @@ export default function Footer({ lenisRef }: Props) {
           <div>
             <p className="label">{t('ft.services')}</p>
             {CHAPTERS.map((c) => (
-              <a key={c.id} href={href(c.id)} onClick={(e) => go(e, c.id)}>
+              <Link key={c.id} to={`/services#${c.id}`}>
                 {t(c.labelKey)}
-              </a>
+              </Link>
             ))}
           </div>
           <div>
             <p className="label">{t('ft.company')}</p>
             <Link to="/about">{t('nav.about')}</Link>
             <Link to="/work">{t('nav.work')}</Link>
-            <a href={href('approach')} onClick={(e) => go(e, 'approach')}>{t('nav.approach')}</a>
-            <a href={href('packages')} onClick={(e) => go(e, 'packages')}>{t('nav.packages')}</a>
-            <a href={href('faq')} onClick={(e) => go(e, 'faq')}>{t('nav.faq')}</a>
+            <Link to="/services#approach">{t('nav.approach')}</Link>
+            <Link to="/packages">{t('nav.packages')}</Link>
+            <Link to="/packages#faq">{t('nav.faq')}</Link>
           </div>
           <div>
             <p className="label">{t('ft.contact')}</p>
