@@ -2,14 +2,17 @@ import { useMemo, useRef } from 'react';
 import { useI18n } from '@/i18n/I18nProvider';
 import { parseRichWords } from '@/i18n/rich';
 import { useScrollProgress } from '@/hooks/useScrollProgress';
+import { useReducedMotion } from '@/hooks/useReducedMotion';
 
 export default function Manifesto() {
   const { t, lang } = useI18n();
   const ref = useRef<HTMLParagraphElement>(null);
   const words = useMemo(() => parseRichWords(t('mani.text')), [t, lang]);
+  const reduce = useReducedMotion();
   const p = useScrollProgress(ref, { start: 0.85, end: 0.35 });
 
-  const litCount = Math.round(p * words.filter((w) => !w.space).length);
+  const total = words.filter((w) => !w.space).length;
+  const litCount = reduce ? total : Math.round(p * total);
   let lit = 0;
 
   return (

@@ -70,10 +70,7 @@ export const PROJECTS: Project[] = [
     results: [
       { fig: 'SGD 318', text: 'wk.sf.r0.t' },
       { text: 'wk.sf.r1.t' },
-      { fig: '~50%', text: 'wk.sf.r2.t', projected: true },
-      { fig: '~95%', text: 'wk.sf.r3.t', projected: true },
-      { fig: '~95%', text: 'wk.sf.r4.t', projected: true },
-      { figKey: 'wk.sf.r5.f', text: 'wk.sf.r5.t', projected: true },
+      { text: 'wk.sf.est' },
     ],
     stack: ['Raspberry Pi', 'YOLO', 'Custom CNN', 'Load cells', 'RFID', 'SQL'],
   },

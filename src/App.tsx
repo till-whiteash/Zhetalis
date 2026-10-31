@@ -80,7 +80,7 @@ export default function App() {
       </Routes>
 
       <Footer lenisRef={lenisRef} />
-      <FloatingButtons />
+      {pathname !== '/contact' && <FloatingButtons />}
     </>
   );
 }

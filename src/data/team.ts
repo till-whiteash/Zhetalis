@@ -23,4 +23,12 @@ export interface TeamMember {
   linkedin?: string;
 }
 
-export const TEAM: readonly TeamMember[] = [];
+export const TEAM: readonly TeamMember[] = [
+  { name: 'Zijun', role: 'Computer Engineering & Applications' },
+  { name: 'James', role: 'Computer Engineering, ML/AI' },
+  { name: 'Ewan', role: 'Co-founder · Research Engineer, NSYSU', base: 'Kaohsiung' },
+  { name: 'Theodore', role: 'Mechatronics & Robotics' },
+  { name: 'Aaron', role: 'Co-founder · Computer Science & Application Development' },
+  { name: 'Llewis', role: 'Embedded Systems Engineer' },
+  { name: 'Owen', role: 'Marine Engineer' },
+];

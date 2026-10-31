@@ -81,11 +81,11 @@ const source = {
                     "我們協助企業規劃、設計並打造自己的[技術]。"
                 ],
     "hero.sub":  [
-                     "Zhetalis is a technology and business consultancy with teams in Singapore and Kaohsiung, Taiwan. We plan, design and build software, AI and connected systems for companies wherever they are.",
-                     "Zhetalis 是一家技术与商业咨询公司，团队分布在新加坡和台湾高雄。无论企业身在何处，我们都能为其规划、设计并构建软件、AI 与物联网系统。",
-                     "Zhetalis एक तकनीक और बिज़नेस कंसल्टेंसी है, जिसकी टीमें सिंगापुर और काओशुंग, ताइवान में हैं। हम कंपनियों के लिए सॉफ़्टवेयर, AI और कनेक्टेड सिस्टम की योजना बनाते हैं, उन्हें डिज़ाइन करते हैं और बनाते हैं, चाहे वे कहीं भी हों।",
-                     "Zhetalis شركة استشارات تقنية وأعمال، لديها فرق في سنغافورة وكاوهسيونغ في تايوان. نخطط ونصمم ونبني البرمجيات وأنظمة الذكاء الاصطناعي والأنظمة المتصلة للشركات أينما كانت.",
-                     "Zhetalis 是一家技術與商業顧問公司，團隊分布於新加坡與台灣高雄。無論企業身在何處，我們都能為其規劃、設計並打造軟體、AI 與物聯網系統。"
+                     "An engineering team from Southeast Asia, working from Singapore and Kaohsiung, Taiwan. We build web and mobile apps, AI features and IoT systems, and help you decide what to build first.",
+                     "一支来自东南亚的工程团队，成员分布在新加坡和台湾高雄。我们开发网页与移动应用、AI 功能和物联网系统，也会帮您判断应该先做什么。",
+                     "दक्षिण-पूर्व एशिया की एक इंजीनियरिंग टीम, जो सिंगापुर और काओशुंग, ताइवान से काम करती है। हम वेब और मोबाइल ऐप, AI फ़ीचर और IoT सिस्टम बनाते हैं, और यह तय करने में मदद करते हैं कि पहले क्या बनाना है।",
+                     "فريق هندسي من جنوب شرق آسيا يعمل من سنغافورة وكاوهسيونغ في تايوان. نبني تطبيقات الويب والجوال وميزات الذكاء الاصطناعي وأنظمة إنترنت الأشياء، ونساعدك على تحديد ما تبنيه أولًا.",
+                     "一支來自東南亞的工程團隊，成員分布於新加坡與台灣高雄。我們開發網頁與行動應用、AI 功能與物聯網系統，也會協助您判斷應該先做什麼。"
                  ],
     "hero.cta2":  [
                       "See our services",
@@ -207,11 +207,11 @@ const source = {
                    "系統設計"
                ],
     "a1.title":  [
-                     "Connect your tools, data and workflows into one picture.",
-                     "把您的工具、数据和流程连成一个整体。",
-                     "अपने टूल्स, डेटा और वर्कफ़्लो को एक तस्वीर में जोड़ें।",
-                     "اربط أدواتك وبياناتك وسير عملك في صورة واحدة.",
-                     "把您的工具、資料與流程串成一個整體。"
+                     "Get your systems talking to each other.",
+                     "让您的各个系统互相连通。",
+                     "अपने सिस्टम को आपस में जोड़ें।",
+                     "اجعل أنظمتك تتواصل فيما بينها.",
+                     "讓您的各個系統互相連通。"
                  ],
     "a1.body":  [
                     "We map what you already run, design the architecture and integrations that tie it together, and document it so your team can maintain it.",
@@ -242,12 +242,12 @@ const source = {
                      "從想法到可用的產品。"
                  ],
     "a2.body":  [
-                    "We scope the first version with you, build it in short iterations you can see and test, and deploy it on infrastructure that can grow.",
-                    "我们与您一起确定第一版的范围,以短周期迭代开发,让您随时看到并测试成果,再部署到可扩展的基础设施上。",
-                    "हम आपके साथ पहले वर्ज़न का दायरा तय करते हैं, उसे छोटे-छोटे चरणों में बनाते हैं जिन्हें आप देख और टेस्ट कर सकें, और उसे ऐसे इंफ्रास्ट्रक्चर पर लॉन्च करते हैं जो बढ़ सके।",
-                    "نحدد معك نطاق الإصدار الأول، ونبنيه على مراحل قصيرة يمكنك رؤيتها واختبارها، ثم ننشره على بنية تحتية قابلة للنمو.",
-                    "我們與您一起確定第一版的範圍,以短週期迭代開發,讓您隨時看到並測試成果,再部署到可擴充的基礎架構上。"
-                ],
+                     "We scope the first version with you, build it in short iterations you can see and test, and host it on infrastructure sized for what you need now, with room to scale.",
+                     "我们与您一起确定第一版的范围，以可查看、可测试的短周期迭代开发，并部署在符合当前需求、也留有扩展空间的基础设施上。",
+                     "हम आपके साथ पहले वर्ज़न का दायरा तय करते हैं, उसे छोटे चरणों में बनाते हैं जिन्हें आप देख और टेस्ट कर सकें, और उसे ऐसे इंफ़्रास्ट्रक्चर पर होस्ट करते हैं जो आज की ज़रूरत के हिसाब से हो और आगे बढ़ने की गुंजाइश रखे।",
+                     "نحدد معك نطاق النسخة الأولى، ونبنيها على دورات قصيرة يمكنك رؤيتها واختبارها، ونستضيفها على بنية تحتية تناسب حاجتك الحالية مع مجال للتوسع.",
+                     "我們與您一起確定第一版的範圍，以可查看、可測試的短週期迭代開發，並部署在符合目前需求、也保留擴充空間的基礎設施上。"
+                 ],
     "a2.link":  [
                     "How we build",
                     "了解开发方式",
@@ -263,19 +263,19 @@ const source = {
                    "諮詢與設計"
                ],
     "a3.title":  [
-                     "Agree on outcomes first, then build what fits.",
-                     "先对齐目标,再打造合适的方案。",
-                     "पहले नतीजों पर सहमति, फिर वही बनाएँ जो सही बैठे।",
-                     "نتفق على النتائج أولًا، ثم نبني ما يناسبك.",
-                     "先對齊目標,再打造合適的方案。"
+                     "We agree what success means before we build.",
+                     "动手之前，先就成功的标准达成一致。",
+                     "बनाने से पहले हम तय करते हैं कि सफलता का मतलब क्या है।",
+                     "نتفق على معنى النجاح قبل أن نبدأ البناء.",
+                     "動手之前，先就成功的標準達成共識。"
                  ],
     "a3.body":  [
-                    "We define what success looks like before any build, check each design decision against it, and show you working progress early so the result fits how you actually work.",
-                    "在动工之前,我们先明确什么是成功,用它检验每一个设计决策,并尽早向您展示可运行的进展,确保成果真正贴合您的工作方式。",
-                    "कुछ भी बनाने से पहले हम तय करते हैं कि सफलता कैसी दिखती है, हर डिज़ाइन फ़ैसले को उसी पर परखते हैं, और आपको जल्दी काम करती प्रगति दिखाते हैं ताकि नतीजा आपके असली काम के तरीके से मेल खाए।",
-                    "نحدد شكل النجاح قبل أي بناء، ونختبر كل قرار تصميمي على أساسه، ونعرض عليك تقدّمًا عمليًا مبكرًا ليأتي الناتج ملائمًا لطريقة عملك الفعلية.",
-                    "在動工之前,我們先釐清什麼是成功,用它檢驗每一個設計決策,並儘早向您展示可運作的進度,確保成果真正貼合您的工作方式。"
-                ],
+                     "We define what success looks like before any build, check each design decision against it, and show you working progress early so the result fits how you work.",
+                     "在开始构建之前，我们先定义成功的样子，用它来检验每个设计决定，并尽早向您展示可运行的进展，让成果贴合您的工作方式。",
+                     "कुछ भी बनाने से पहले हम तय करते हैं कि सफलता कैसी दिखती है, हर डिज़ाइन फ़ैसले को उसी पर परखते हैं, और जल्दी ही काम करती प्रगति दिखाते हैं ताकि नतीजा आपके काम करने के तरीके के अनुरूप हो।",
+                     "نحدد شكل النجاح قبل أي بناء، ونختبر كل قرار تصميمي في ضوئه، ونعرض عليك تقدمًا عاملًا مبكرًا كي تناسب النتيجة طريقة عملك.",
+                     "在開始打造之前，我們先定義成功的樣子，用它來檢驗每個設計決定，並及早向您展示可運作的進度，讓成果貼合您的工作方式。"
+                 ],
     "a3.link":  [
                     "Start with consultation",
                     "从咨询开始",
@@ -284,12 +284,12 @@ const source = {
                     "從諮詢開始"
                 ],
     "mani.text":  [
-                      "Most projects go wrong in the gap between the people who plan and the people who build. [We close that gap.] The team that understands your business also designs the system and writes the code, so nothing gets lost in the handover.",
-                      "大多数项目出问题,都出在做规划的人和做开发的人之间的断层上。[我们填补这道断层。]理解您业务的团队,同时负责设计系统、编写代码,交接中不会有任何遗漏。",
-                      "ज़्यादातर प्रोजेक्ट योजना बनाने वालों और बनाने वालों के बीच की खाई में बिगड़ते हैं। [हम उस खाई को पाटते हैं।] जो टीम आपके व्यवसाय को समझती है, वही सिस्टम डिज़ाइन करती है और कोड लिखती है, इसलिए हैंडओवर में कुछ भी छूटता नहीं।",
-                      "تتعثّر معظم المشاريع في الفجوة بين من يخطّطون ومن ينفّذون. [نحن نسدّ هذه الفجوة.] الفريق الذي يفهم عملك هو نفسه من يصمّم النظام ويكتب الشيفرة، فلا يضيع شيء أثناء التسليم.",
-                      "大多數專案出問題,都出在規劃的人和開發的人之間的斷層上。[我們填補這道斷層。]理解您業務的團隊,同時負責設計系統、撰寫程式碼,交接時不會有任何遺漏。"
-                  ],
+                     "When the people who plan a system aren't the ones who build it, details get lost in the handover. [Here the same people do both.] The team that learns your business also designs the system and writes the code.",
+                     "当规划系统的人和构建系统的人不是同一批人时，细节就会在交接中丢失。[在这里，两件事由同一批人完成。]了解您业务的团队，也负责设计系统和编写代码。",
+                     "जब सिस्टम की योजना बनाने वाले और उसे बनाने वाले लोग अलग होते हैं, तो हैंडओवर में बारीकियाँ छूट जाती हैं। [यहाँ दोनों काम वही लोग करते हैं।] जो टीम आपके बिज़नेस को समझती है, वही सिस्टम डिज़ाइन करती है और कोड लिखती है।",
+                     "حين لا يكون من يخطط للنظام هو من يبنيه، تضيع التفاصيل أثناء التسليم. [هنا يتولى الأشخاص أنفسهم الأمرين.] الفريق الذي يتعرّف على عملك هو نفسه من يصمم النظام ويكتب الشيفرة.",
+                     "當規劃系統的人與打造系統的人不是同一批人時，細節就會在交接中流失。[在這裡，兩件事由同一批人完成。]了解您業務的團隊，也負責設計系統與撰寫程式。"
+                 ],
     "svc.h2":  [
                    "What we do",
                    "我们的服务",
@@ -354,12 +354,12 @@ const source = {
                     "您自己的團隊可以直接接手的系統設計。"
                 ],
     "svc1.p":  [
-                   "Built around your real constraints and documented so your own team can own it, whoever ends up building it.",
-                   "围绕您的真实约束而设计,并配有完整文档,无论最终由谁开发,您的团队都能掌握它。",
-                   "आपकी असली सीमाओं के हिसाब से बना और पूरी तरह दस्तावेज़ किया हुआ, ताकि इसे कोई भी बनाए, आपकी अपनी टीम इसे संभाल सके।",
-                   "مبنية حول قيودك الحقيقية وموثّقة ليتمكن فريقك من امتلاكها، أيًّا كان من سينفّذها.",
-                   "圍繞您的真實限制條件設計,並附有完整文件,無論最終由誰開發,您的團隊都能掌握它。"
-               ],
+                     "Designed around your budget, your existing systems and your team's skills, and documented so your own team can own it, whoever builds it.",
+                     "围绕您的预算、现有系统和团队能力来设计，并完整记录，无论由谁开发，您的团队都能接手。",
+                     "आपके बजट, मौजूदा सिस्टम और टीम की क्षमताओं के आसपास डिज़ाइन किया गया, और ऐसे दस्तावेज़ों के साथ कि कोई भी बनाए, आपकी अपनी टीम उसे संभाल सके।",
+                     "مصمَّم حول ميزانيتك وأنظمتك الحالية ومهارات فريقك، وموثَّق كي يتمكن فريقك من امتلاكه أيًّا كان من يبنيه.",
+                     "圍繞您的預算、現有系統與團隊能力來設計，並完整記錄，無論由誰開發，您的團隊都能接手。"
+                 ],
     "svc1.i0":  [
                      "Software and system architecture",
                      "软件与系统架构",
@@ -375,12 +375,12 @@ const source = {
                     "資料庫與 API 設計"
                 ],
     "svc1.i2":  [
-                    "Scalability and reliability reviews",
-                    "可扩展性与可靠性评估",
-                    "स्केलेबिलिटी और विश्वसनीयता समीक्षा",
-                    "مراجعات قابلية التوسع والموثوقية",
-                    "擴充性與可靠性評估"
-                ],
+                     "Architecture and performance reviews",
+                     "架构与性能评审",
+                     "आर्किटेक्चर और परफ़ॉर्मेंस रिव्यू",
+                     "مراجعات البنية والأداء",
+                     "架構與效能審查"
+                 ],
     "svc1.i3":  [
                     "Technical documentation and handover",
                     "技术文档与交接",
@@ -396,19 +396,19 @@ const source = {
                       "規劃您的系統"
                   ],
     "svc2.h3":  [
-                    "Software we build, launch and keep running.",
-                    "我们开发、上线并持续维护的软件。",
-                    "सॉफ़्टवेयर जिसे हम बनाते, लॉन्च करते और चालू रखते हैं।",
-                    "برمجيات نبنيها ونطلقها ونواصل تشغيلها.",
-                    "我們開發、上線並持續維運的軟體。"
-                ],
+                     "Software and hardware we build and look after.",
+                     "我们打造并维护的软件与硬件。",
+                     "सॉफ़्टवेयर और हार्डवेयर, जिसे हम बनाते और संभालते हैं।",
+                     "برمجيات وعتاد نبنيها ونعتني بها.",
+                     "我們打造並維護的軟體與硬體。"
+                 ],
     "svc2.p":  [
-                   "From web and mobile apps to cloud setup, connected devices and AI features, delivered in short iterations you can see and test.",
-                   "从网页与移动应用,到云端部署、物联网设备和 AI 功能,以短周期迭代交付,您可以随时查看和测试。",
-                   "वेब और मोबाइल ऐप से लेकर क्लाउड सेटअप, कनेक्टेड डिवाइस और AI फ़ीचर तक, छोटे चरणों में डिलीवर जिन्हें आप देख और टेस्ट कर सकें।",
-                   "من تطبيقات الويب والجوال إلى إعداد السحابة والأجهزة المتصلة وميزات الذكاء الاصطناعي، نسلّمها على مراحل قصيرة يمكنك رؤيتها واختبارها.",
-                   "從網頁與行動應用程式,到雲端部署、物聯網裝置和 AI 功能,以短週期迭代交付,您可以隨時查看和測試。"
-               ],
+                     "Web and mobile apps, cloud setup, connected devices and AI features, delivered in short iterations you can see and test. We work in React, Node.js and Python, on ESP32 and Raspberry Pi, and on AWS.",
+                     "网页与移动应用、云端部署、联网设备和 AI 功能，以短周期迭代交付，您可以随时查看和测试。我们使用 React、Node.js 和 Python，ESP32 和树莓派，以及 AWS。",
+                     "वेब और मोबाइल ऐप, क्लाउड सेटअप, कनेक्टेड डिवाइस और AI फ़ीचर, छोटे-छोटे चरणों में डिलीवर किए जाते हैं जिन्हें आप देख और टेस्ट कर सकते हैं। हम React, Node.js और Python, ESP32 और Raspberry Pi, और AWS पर काम करते हैं।",
+                     "تطبيقات الويب والجوال، وإعداد السحابة، والأجهزة المتصلة، وميزات الذكاء الاصطناعي، تُسلَّم على دورات قصيرة يمكنك رؤيتها واختبارها. نعمل بـ React وNode.js وPython، وعلى ESP32 وRaspberry Pi، وعلى AWS.",
+                     "網頁與行動應用、雲端部署、聯網裝置與 AI 功能，以短週期迭代交付，您可以隨時查看與測試。我們使用 React、Node.js 與 Python，ESP32 與樹莓派，以及 AWS。"
+                 ],
     "svc2.i0":  [
                     "Web and mobile application development",
                     "网页与移动应用开发",
@@ -417,18 +417,18 @@ const source = {
                     "網頁與行動應用程式開發"
                 ],
     "svc2.i1":  [
-                    "Cloud, containers and DevOps setup",
-                    "云服务、容器与 DevOps 部署",
-                    "क्लाउड, कंटेनर और DevOps सेटअप",
-                    "إعداد السحابة والحاويات وDevOps",
-                    "雲端、容器與 DevOps 建置"
-                ],
+                     "Cloud, Linux and CI/CD setup on AWS",
+                     "AWS 上的云端、Linux 与 CI/CD 部署",
+                     "AWS पर क्लाउड, Linux और CI/CD सेटअप",
+                     "إعداد السحابة وLinux وCI/CD على AWS",
+                     "AWS 上的雲端、Linux 與 CI/CD 建置"
+                 ],
     "svc2.i2":  [
-                     "IoT and embedded systems",
-                     "物联网与嵌入式系统",
-                     "IoT और एम्बेडेड सिस्टम",
-                     "إنترنت الأشياء والأنظمة المدمجة",
-                     "物聯網與嵌入式系統"
+                     "IoT and embedded systems (ESP32, Arduino, MQTT, LoRa)",
+                     "物联网与嵌入式系统（ESP32、Arduino、MQTT、LoRa）",
+                     "IoT और एम्बेडेड सिस्टम (ESP32, Arduino, MQTT, LoRa)",
+                     "إنترنت الأشياء والأنظمة المدمجة (ESP32 وArduino وMQTT وLoRa)",
+                     "物聯網與嵌入式系統（ESP32、Arduino、MQTT、LoRa）"
                  ],
     "svc2.i3":  [
                      "AI agents, computer vision and machine learning",
@@ -445,19 +445,19 @@ const source = {
                       "開始開發"
                   ],
     "ap.h2":  [
-                  "Mind first, then hand.",
-                  "先用心思考,再动手实现。",
-                  "पहले सोच, फिर हाथ।",
-                  "العقل أولًا، ثم اليد.",
-                  "先用心思考,再動手實現。"
-              ],
+                     "How a project runs",
+                     "项目如何进行",
+                     "प्रोजेक्ट कैसे चलता है",
+                     "كيف يسير المشروع",
+                     "專案如何進行"
+                 ],
     "ap.lede":  [
-                    "The same four stages on every engagement, so you always know where your project stands.",
-                    "每个项目都遵循相同的四个阶段,让您随时清楚项目进展。",
-                    "हर प्रोजेक्ट में यही चार चरण, ताकि आपको हमेशा पता रहे कि आपका प्रोजेक्ट कहाँ है।",
-                    "المراحل الأربع نفسها في كل مشروع، لتعرف دائمًا أين وصل مشروعك.",
-                    "每個專案都遵循相同的四個階段,讓您隨時清楚專案進度。"
-                ],
+                     "Every project goes through the same four stages, so you always know where yours stands.",
+                     "每个项目都经过同样的四个阶段，让您随时清楚进度。",
+                     "हर प्रोजेक्ट इन्हीं चार चरणों से गुज़रता है, ताकि आपको हमेशा पता रहे कि आपका प्रोजेक्ट कहाँ है।",
+                     "يمر كل مشروع بالمراحل الأربع نفسها، فتعرف دائمًا أين وصل مشروعك.",
+                     "每個專案都經過同樣的四個階段，讓您隨時清楚進度。"
+                 ],
     "ap.stage":  [
                      "Stage",
                      "阶段",
@@ -627,12 +627,12 @@ const source = {
                   "諮詢"
               ],
     "pk0.p":  [
-                  "A focused session on your goals, ending in clear written next steps.",
-                  "一次聚焦您目标的深度沟通,最后给出清晰的书面行动建议。",
-                  "आपके लक्ष्यों पर केंद्रित एक सत्र, जिसके अंत में साफ़ लिखित अगले कदम मिलते हैं।",
-                  "جلسة مركّزة على أهدافك تنتهي بخطوات تالية واضحة ومكتوبة.",
-                  "一次聚焦您目標的深度討論,最後提供清楚的書面行動建議。"
-              ],
+                     "A working session on your goals, ending in clear written next steps.",
+                     "围绕您的目标进行一次工作会议，最后给出清晰的书面下一步。",
+                     "आपके लक्ष्यों पर एक वर्किंग सेशन, जिसके अंत में साफ़ लिखित अगले कदम मिलते हैं।",
+                     "جلسة عمل حول أهدافك، تنتهي بخطوات تالية واضحة ومكتوبة.",
+                     "圍繞您的目標進行一次工作會議，最後給出清楚的書面下一步。"
+                 ],
     "pk0.i0":  [
                    "Discovery session on your goals",
                    "目标探讨会议",
@@ -697,12 +697,12 @@ const source = {
                   "開發與支援"
               ],
     "pk2.p":  [
-                  "We build, launch and look after it. One accountable team from plan to production.",
-                  "我们负责开发、上线和后续维护。从规划到投产,由同一个团队负责到底。",
-                  "हम बनाते हैं, लॉन्च करते हैं और उसकी देखभाल करते हैं। योजना से प्रोडक्शन तक एक ज़िम्मेदार टीम।",
-                  "نبني ونطلق ونعتني بالنظام. فريق واحد مسؤول من التخطيط حتى التشغيل.",
-                  "我們負責開發、上線與後續維運。從規劃到上線,由同一個團隊負責到底。"
-              ],
+                     "We build it, launch it and maintain it, and you deal with the same people throughout.",
+                     "我们负责开发、上线和维护，全程由同一批人与您对接。",
+                     "हम इसे बनाते हैं, लॉन्च करते हैं और संभालते हैं, और पूरे समय आप उन्हीं लोगों से बात करते हैं।",
+                     "نبنيه ونطلقه ونصونه، وتتعامل مع الأشخاص أنفسهم طوال الوقت.",
+                     "我們負責開發、上線與維護，全程由同一批人與您對接。"
+                 ],
     "pk2.i0":  [
                    "Everything in Design \u0026 Plan",
                    "包含设计与规划全部内容",
@@ -746,12 +746,12 @@ const source = {
                    "你們服務哪些客戶?"
                ],
     "faq0.a":  [
-                   "We work with startups, SMEs and growing teams that need technology to support a business goal: a new product, a better internal system, or a clear plan before they invest.",
-                   "我们服务初创公司、中小企业和成长中的团队,凡是需要技术来支撑业务目标的客户:开发新产品、改进内部系统,或在投资前先理清方向。",
-                   "हम स्टार्टअप, छोटे-मझोले व्यवसायों और बढ़ती टीमों के साथ काम करते हैं जिन्हें किसी व्यावसायिक लक्ष्य के लिए तकनीक चाहिए: नया प्रोडक्ट, बेहतर आंतरिक सिस्टम, या निवेश से पहले एक साफ़ योजना।",
-                   "نعمل مع الشركات الناشئة والشركات الصغيرة والمتوسطة والفرق النامية التي تحتاج إلى التقنية لدعم هدف تجاري: منتج جديد، أو نظام داخلي أفضل، أو خطة واضحة قبل الاستثمار.",
-                   "我們服務新創公司、中小企業與成長中的團隊,凡是需要技術來支撐業務目標的客戶:開發新產品、改善內部系統,或在投資前先理清方向。"
-               ],
+                     "We're set up for startups, SMEs and growing teams that need technology behind a business goal: a new product, a better internal system, or a clear plan before they invest.",
+                     "我们面向初创公司、中小企业和成长中的团队，帮助他们用技术实现业务目标：一个新产品、一套更好的内部系统，或在投资前先有清晰的规划。",
+                     "हम स्टार्टअप, SME और बढ़ती टीमों के लिए हैं, जिन्हें किसी बिज़नेस लक्ष्य के लिए तकनीक चाहिए: नया प्रोडक्ट, बेहतर आंतरिक सिस्टम, या निवेश से पहले स्पष्ट योजना।",
+                     "نحن مهيّؤون للشركات الناشئة والصغيرة والمتوسطة والفرق النامية التي تحتاج إلى التقنية لتحقيق هدف تجاري: منتج جديد، أو نظام داخلي أفضل، أو خطة واضحة قبل الاستثمار.",
+                     "我們面向新創公司、中小企業與成長中的團隊，協助他們用技術實現業務目標：一個新產品、一套更好的內部系統，或在投資前先有清楚的規劃。"
+                 ],
     "faq1.q":  [
                    "Do you only advise, or do you build too?",
                    "你们只提供建议,还是也负责开发?",
@@ -809,18 +809,18 @@ const source = {
                    "可以。我們會評估您現有的系統,在合理的地方加以利用,並完整記錄,方便您的團隊維護。"
                ],
     "faq5.q":  [
-                   "Where are you based, and do you work with clients abroad?",
-                   "你们在哪里办公?是否服务海外客户?",
-                   "आप कहाँ स्थित हैं, और क्या आप दूसरे देशों के ग्राहकों के साथ काम करते हैं?",
-                   "أين مقركم، وهل تعملون مع عملاء في دول أخرى؟",
-                   "你們在哪裡辦公?是否服務海外客戶?"
-               ],
+                     "Where are you based, and can you work with us from abroad?",
+                     "你们在哪里？可以和海外客户合作吗？",
+                     "आप कहाँ स्थित हैं, और क्या आप विदेश से हमारे साथ काम कर सकते हैं?",
+                     "أين مقركم، وهل يمكنكم العمل معنا من الخارج؟",
+                     "你們在哪裡？可以與海外客戶合作嗎？"
+                 ],
     "faq5.a":  [
-                     "Our headquarters is in Singapore and we have an office in Kaohsiung, Taiwan. Wherever you are, you work with the same team, and we schedule calls to suit your time zone.",
-                     "我们的总部位于新加坡，并在台湾高雄设有办公室。无论您身在何处，都由同一支团队为您服务，通话时间也会配合您的时区安排。",
-                     "हमारा मुख्यालय सिंगापुर में है और काओशुंग, ताइवान में हमारा ऑफ़िस है। आप कहीं भी हों, आपके साथ वही टीम काम करती है, और हम कॉल आपके टाइम ज़ोन के हिसाब से तय करते हैं।",
-                     "يقع مقرنا الرئيسي في سنغافورة ولدينا مكتب في كاوهسيونغ بتايوان. أينما كنت، ستعمل مع الفريق نفسه، ونحدد مواعيد المكالمات بما يناسب منطقتك الزمنية.",
-                     "我們的總部位於新加坡，並在台灣高雄設有辦公室。無論您身在何處，都由同一支團隊為您服務，通話時間也會配合您的時區安排。"
+                     "We're registered in Singapore and part of the team works from Kaohsiung, Taiwan. We work with you remotely wherever you are, and schedule calls to suit your time zone.",
+                     "我们在新加坡注册，部分成员在台湾高雄工作。无论您身在何处，我们都可以远程合作，并配合您的时区安排通话。",
+                     "हम सिंगापुर में पंजीकृत हैं और टीम का एक हिस्सा काओशुंग, ताइवान से काम करता है। आप कहीं भी हों, हम रिमोट तरीके से आपके साथ काम करते हैं और कॉल आपके टाइम ज़ोन के हिसाब से तय करते हैं।",
+                     "نحن مسجّلون في سنغافورة، ويعمل جزء من الفريق من كاوهسيونغ في تايوان. نعمل معك عن بُعد أينما كنت، ونحدد مواعيد المكالمات بما يناسب منطقتك الزمنية.",
+                     "我們在新加坡註冊，部分成員在台灣高雄工作。無論您身在何處，我們都能遠端合作，並配合您的時區安排通話。"
                  ],
     "ct.h2":  [
                   "Let\u0027s talk about your project.",
@@ -1194,11 +1194,11 @@ const source = {
                    "台灣高雄"
                ],
     "off.sgHQ":  [
-                     "Singapore (HQ)",
-                     "新加坡(总部)",
-                     "सिंगापुर (मुख्यालय)",
-                     "سنغافورة (المقر الرئيسي)",
-                     "新加坡(總部)"
+                     "Singapore",
+                     "新加坡",
+                     "सिंगापुर",
+                     "سنغافورة",
+                     "新加坡"
                  ],
     "ct.phoneSG":  [
                        "Phone · Singapore",
@@ -1272,11 +1272,11 @@ const source = {
                ],
     /* ---- contact page (/contact) and the homepage call-to-action ---- */
     "cta.lede":  [
-                     "Answer a few focused questions about your project and we'll come to the first call already prepared.",
-                     "回答几个关于项目的关键问题，我们会带着准备好的思路参加第一次通话。",
-                     "अपने प्रोजेक्ट के बारे में कुछ ज़रूरी सवालों के जवाब दें, ताकि पहली कॉल पर हम पूरी तैयारी के साथ आएँ।",
-                     "أجب عن بضعة أسئلة محددة حول مشروعك، وسنأتي إلى المكالمة الأولى مستعدين.",
-                     "回答幾個關於專案的關鍵問題，我們會帶著準備好的想法參加第一次通話。"
+                     "Answer a few short questions about your project and we'll come to the first call already prepared.",
+                     "回答几个关于项目的简短问题，我们会带着准备参加第一次通话。",
+                     "अपने प्रोजेक्ट के बारे में कुछ छोटे सवालों के जवाब दें, और हम पहली कॉल पर पूरी तैयारी के साथ आएँगे।",
+                     "أجب عن بضعة أسئلة قصيرة عن مشروعك، وسنأتي إلى المكالمة الأولى مستعدين.",
+                     "回答幾個關於專案的簡短問題，我們會帶著準備參加第一次通話。"
                  ],
     "cta.btn":  [
                      "Start your project brief",
@@ -1300,11 +1300,11 @@ const source = {
                      "跟我們聊聊您的專案。"
                  ],
     "cp.lede":  [
-                     "A few focused questions so the first call is useful. A real person reads every brief and replies within one business day.",
-                     "几个关键问题，让第一次通话更有价值。每份简介都由真人阅读，并在一个工作日内回复。",
-                     "कुछ ज़रूरी सवाल, ताकि पहली कॉल काम की हो। हर ब्रीफ़ एक असली व्यक्ति पढ़ता है और एक कार्यदिवस के भीतर जवाब देता है।",
-                     "بضعة أسئلة محددة لتكون المكالمة الأولى مفيدة. يقرأ كل موجز شخص حقيقي ويرد خلال يوم عمل واحد.",
-                     "幾個關鍵問題，讓第一次通話更有價值。每份簡介都由真人閱讀，並在一個工作天內回覆。"
+                     "A few short questions so the first call is useful. A real person reads every brief and replies within one business day.",
+                     "几个简短问题，让第一次通话更有效。每份需求都由真人阅读，并在一个工作日内回复。",
+                     "कुछ छोटे सवाल, ताकि पहली कॉल उपयोगी हो। हर ब्रीफ़ एक असली व्यक्ति पढ़ता है और एक कार्यदिवस के भीतर जवाब देता है।",
+                     "بضعة أسئلة قصيرة لتكون المكالمة الأولى مفيدة. يقرأ شخص حقيقي كل طلب ويرد خلال يوم عمل واحد.",
+                     "幾個簡短問題，讓第一次通話更有效。每份需求都由真人閱讀，並在一個工作天內回覆。"
                  ],
     "cp.back":  [
                      "Back to home",
@@ -1349,11 +1349,11 @@ const source = {
                      "您需要哪種協助？"
                  ],
     "cp.o0d":  [
-                     "A focused session and written next steps.",
-                     "一次聚焦的讨论，加上书面的下一步建议。",
-                     "एक केंद्रित सत्र और लिखित अगले कदम।",
-                     "جلسة مركّزة وخطوات تالية مكتوبة.",
-                     "一次聚焦的討論，加上書面的下一步建議。"
+                     "One session and written next steps.",
+                     "一次会议，加上书面的下一步。",
+                     "एक सेशन और लिखित अगले कदम।",
+                     "جلسة واحدة وخطوات تالية مكتوبة.",
+                     "一次會議，加上書面的下一步。"
                  ],
     "cp.o1d":  [
                      "Architecture, scope, timeline and cost, ready to build.",
@@ -1833,11 +1833,11 @@ const source = {
                      "關於 Zhetalis"
                  ],
     "ab.h1":  [
-                     "One team, from the first conversation to launch.",
-                     "从第一次沟通到上线，始终是同一个团队。",
-                     "पहली बातचीत से लॉन्च तक, एक ही टीम।",
-                     "فريق واحد من المحادثة الأولى حتى الإطلاق.",
-                     "從第一次溝通到上線，始終是同一個團隊。"
+                     "Seven engineers who plan and build together.",
+                     "七位一起规划、一起动手的工程师。",
+                     "सात इंजीनियर, जो साथ मिलकर योजना बनाते हैं और निर्माण करते हैं।",
+                     "سبعة مهندسين يخططون ويبنون معًا.",
+                     "七位一起規劃、一起動手的工程師。"
                  ],
     "ab.motto.h":  [
                      "Mind and hand.",
@@ -1861,11 +1861,11 @@ const source = {
                      "心"
                  ],
     "ab.mind.p":  [
-                     "Consultation and system design. We work out what you actually need and how it should fit together before anything is built.",
-                     "咨询与系统设计。在动工之前，先弄清楚您真正需要什么，以及各部分该如何衔接。",
-                     "परामर्श और सिस्टम डिज़ाइन। कुछ भी बनाने से पहले हम तय करते हैं कि आपको असल में क्या चाहिए और सब कुछ कैसे जुड़ेगा।",
-                     "الاستشارة وتصميم الأنظمة. نحدد ما تحتاجه فعلًا وكيف تترابط الأجزاء قبل بناء أي شيء.",
-                     "諮詢與系統設計。在動工之前，先釐清您真正需要什麼，以及各部分該如何銜接。"
+                     "Consultation and system design. We work out what you need and how it should fit together before anything is built.",
+                     "咨询与系统设计。在动手之前，我们先弄清楚您需要什么，以及各部分该如何组合。",
+                     "परामर्श और सिस्टम डिज़ाइन। कुछ भी बनाने से पहले हम समझते हैं कि आपको क्या चाहिए और सब कुछ कैसे जुड़ना चाहिए।",
+                     "الاستشارة وتصميم الأنظمة. نحدد ما تحتاجه وكيف ينبغي أن تترابط الأجزاء قبل بناء أي شيء.",
+                     "諮詢與系統設計。在動手之前，我們先釐清您需要什麼，以及各部分該如何組合。"
                  ],
     "ab.hand.h":  [
                      "Hand",
@@ -1875,11 +1875,11 @@ const source = {
                      "手"
                  ],
     "ab.hand.p":  [
-                     "Development and support. The people who planned it build it, launch it and keep it running.",
-                     "开发与支持。负责规划的人，也负责开发、上线和持续维护。",
-                     "डेवलपमेंट और सहयोग। जिन्होंने योजना बनाई, वही इसे बनाते, लॉन्च करते और चालू रखते हैं।",
-                     "التطوير والدعم. من خطّطوا له هم من يبنونه ويطلقونه ويواصلون تشغيله.",
-                     "開發與支援。負責規劃的人，也負責開發、上線與持續維運。"
+                     "Development and support. The people who planned it write the code and look after it after launch.",
+                     "开发与支持。规划它的人负责编写代码，并在上线后继续维护。",
+                     "डेवलपमेंट और सपोर्ट। जिन्होंने योजना बनाई, वही कोड लिखते हैं और लॉन्च के बाद उसकी देखभाल करते हैं।",
+                     "التطوير والدعم. من خطّطوا له هم من يكتبون الشيفرة ويعتنون به بعد الإطلاق.",
+                     "開發與支援。規劃它的人負責撰寫程式，並在上線後持續維護。"
                  ],
     "ab.pr.label":  [
                      "How we work",
@@ -1903,11 +1903,11 @@ const source = {
                      "說清楚、講明白"
                  ],
     "ab.p0.p":  [
-                     "Technology choices explained in terms of cost, risk and what they do for your business, not jargon.",
-                     "用成本、风险和对业务的影响来解释技术选择，而不是堆砌术语。",
-                     "तकनीकी फ़ैसले लागत, जोखिम और आपके व्यवसाय पर असर के रूप में समझाए जाते हैं, शब्दजाल में नहीं।",
-                     "نشرح الخيارات التقنية من حيث التكلفة والمخاطر وأثرها على عملك، لا بالمصطلحات المعقدة.",
-                     "用成本、風險和對業務的影響來解釋技術選擇，而不是堆砌術語。"
+                     "We explain technology choices by what they cost, what could go wrong and what they do for your business.",
+                     "我们从成本、风险以及对业务的作用来解释技术选择。",
+                     "हम तकनीकी विकल्पों को उनकी लागत, उनके जोखिम और आपके बिज़नेस पर असर के हिसाब से समझाते हैं।",
+                     "نشرح الخيارات التقنية من حيث تكلفتها وما قد يحدث من خطأ وما تقدمه لعملك.",
+                     "我們從成本、風險以及對業務的作用來說明技術選擇。"
                  ],
     "ab.p1.h":  [
                      "Cost agreed before work",
@@ -1980,18 +1980,18 @@ const source = {
                      "我們在哪裡"
                  ],
     "ab.where.h2":  [
-                     "Two offices, one team",
-                     "两个办公室，同一个团队",
-                     "दो कार्यालय, एक टीम",
-                     "مكتبان وفريق واحد",
-                     "兩個辦公室，同一個團隊"
+                     "Singapore and Kaohsiung",
+                     "新加坡与高雄",
+                     "सिंगापुर और काओशुंग",
+                     "سنغافورة وكاوهسيونغ",
+                     "新加坡與高雄"
                  ],
     "ab.where.p":  [
-                     "Our headquarters is in Singapore and our office is in Kaohsiung, Taiwan, both on UTC+8. Wherever you are, you work with the same people.",
-                     "我们的总部位于新加坡，办公室位于台湾高雄，两地都在 UTC+8 时区。无论您身在何处，合作的都是同一批人。",
-                     "हमारा मुख्यालय सिंगापुर में और ऑफ़िस काओशुंग, ताइवान में है, दोनों UTC+8 पर। आप कहीं भी हों, आप उन्हीं लोगों के साथ काम करते हैं।",
-                     "يقع مقرنا الرئيسي في سنغافورة ومكتبنا في كاوهسيونغ بتايوان، وكلاهما على توقيت UTC+8. أينما كنت، ستعمل مع الأشخاص أنفسهم.",
-                     "我們的總部位於新加坡，辦公室位於台灣高雄，兩地皆為 UTC+8 時區。無論您身在何處，合作的都是同一批人。"
+                     "Zhetalis was incorporated in Singapore on 8 October 2026. Our registered address is 16 Spottiswoode Park Road, Singapore 088661, and part of the team works from Kaohsiung, Taiwan. Both are on UTC+8.",
+                     "Zhetalis 于 2026 年 10 月 8 日在新加坡注册成立。注册地址为 16 Spottiswoode Park Road, Singapore 088661，部分成员在台湾高雄工作。两地都在 UTC+8 时区。",
+                     "Zhetalis 8 अक्टूबर 2026 को सिंगापुर में निगमित हुई। हमारा पंजीकृत पता 16 Spottiswoode Park Road, Singapore 088661 है, और टीम का एक हिस्सा काओशुंग, ताइवान से काम करता है। दोनों जगह UTC+8 पर हैं।",
+                     "تأسست Zhetalis في سنغافورة في 8 أكتوبر 2026. عنواننا المسجّل هو 16 Spottiswoode Park Road, Singapore 088661، ويعمل جزء من الفريق من كاوهسيونغ في تايوان. كلاهما على توقيت UTC+8.",
+                     "Zhetalis 於 2026 年 10 月 8 日在新加坡註冊成立。註冊地址為 16 Spottiswoode Park Road, Singapore 088661，部分成員在台灣高雄工作。兩地皆為 UTC+8 時區。"
                  ],
     "ab.team.label":  [
                      "People",
@@ -2268,11 +2268,11 @@ const source = {
                      "近期專案"
                  ],
     "wk.sf.tag":  [
-                     "A tool room that runs itself, around the clock.",
-                     "一个全天候自主运作的工具房。",
-                     "एक टूल रूम जो चौबीसों घंटे खुद चलता है।",
-                     "غرفة أدوات تُدير نفسها على مدار الساعة.",
-                     "一個全天候自主運作的工具房。"
+                     "A self-service tool room, designed to run around the clock.",
+                     "一个自助式工具室，设计为全天候运行。",
+                     "एक सेल्फ़-सर्विस टूल रूम, जिसे चौबीसों घंटे चलने के लिए डिज़ाइन किया गया।",
+                     "غرفة أدوات للخدمة الذاتية، مصمَّمة للعمل على مدار الساعة.",
+                     "一間自助式工具室，設計為全天候運作。"
                  ],
     "wk.sf.problem":  [
                      "In a busy machining tool room, consumables like gloves, batteries and lubricant are issued by hand. Staff lose hours counting and logging, stock goes missing or runs out without warning, and the room closes when the storekeeper goes home. The goal was to turn it into a lights-out, Industry 4.0 tool room that runs without staff on hand.",
@@ -2282,11 +2282,11 @@ const source = {
                      "在繁忙的機加工工具房裡，手套、電池、潤滑劑等耗材都靠人工發放。員工花大量時間清點和登記，庫存會無故短少或突然用完，而庫管一下班，工具房就關門。目標是將它改造成無需人員在場、可無人化運作的工業 4.0 工具室。"
                  ],
     "wk.sf.built":  [
-                     "An RFID-authenticated dispensing locker that works 24/7 with no storekeeper on shift. Employees tap their card and pick what they need on a touchscreen. A conveyor loads lockers from the back, so employees only ever touch the front. Every withdrawal is checked twice, by a camera in the compartment and by a load cell, and reconciled against the dispense log on a Raspberry Pi at the edge, which flags theft, jams and miscounts.",
-                     "一个以 RFID 认证、全天候运行的取料柜，无需仓管人员值班。员工刷卡后在触控屏上选择所需物品。输送带从柜子背面装货，员工只接触正面。每次取用都经过两道核对：柜格内的摄像头和称重传感器，并在边缘端的树莓派上与出料记录比对，自动标记失窃、卡料和计数错误。",
-                     "RFID से प्रमाणित एक डिस्पेंसिंग लॉकर जो 24/7 चलता है, बिना किसी स्टोरकीपर के। कर्मचारी अपना कार्ड टैप करते हैं और टचस्क्रीन पर ज़रूरी सामान चुनते हैं। कन्वेयर पीछे से लॉकर भरता है, कर्मचारी केवल सामने वाला हिस्सा छूते हैं। हर निकासी की दो बार जाँच होती है, कम्पार्टमेंट के कैमरे और लोड सेल से, और एज पर लगे Raspberry Pi पर डिस्पेंस लॉग से मिलान होता है, जो चोरी, जाम और गलत गिनती को फ़्लैग करता है।",
-                     "خزانة صرف بمصادقة RFID تعمل على مدار الساعة دون الحاجة إلى أمين مخزن. يمرّر الموظف بطاقته ويختار ما يحتاجه على شاشة لمس. يحمّل ناقل الخزائن من الخلف، ولا يلمس الموظفون إلا الواجهة. تُفحص كل عملية سحب مرتين، بكاميرا داخل الحجيرة وبخلية وزن، وتُطابق مع سجل الصرف على Raspberry Pi عند الطرف، فيُنبَّه إلى السرقة والانحشار وأخطاء العدّ.",
-                     "一個以 RFID 認證、全天候運作的取料櫃，無需倉管人員值班。員工刷卡後在觸控螢幕上選擇所需物品。輸送帶從櫃子背面裝貨，員工只接觸正面。每次取用都經過兩道核對：櫃格內的攝影機與荷重元，並在邊緣端的樹莓派上與出料紀錄比對，自動標記失竊、卡料與計數錯誤。"
+                     "An RFID-authenticated dispensing locker designed to run 24/7 without a storekeeper on shift. Employees tap their card and pick what they need on a touchscreen. A conveyor loads lockers from the back, so employees only ever touch the front. Every withdrawal is checked twice, by a camera in the compartment and by a load cell, and reconciled against the dispense log on a Raspberry Pi at the edge, which flags theft, jams and miscounts.",
+                     "一个以 RFID 认证的取料柜，设计为无需仓管人员值班、全天候运行。员工刷卡后在触控屏上选择所需物品。输送带从柜子背面装货，员工只接触正面。每次取用都经过两道核对：柜格内的摄像头和称重传感器，并在边缘端的树莓派上与出料记录比对，自动标记失窃、卡料和计数错误。",
+                     "RFID से प्रमाणित एक डिस्पेंसिंग लॉकर, जिसे बिना स्टोरकीपर के 24/7 चलने के लिए डिज़ाइन किया गया। कर्मचारी अपना कार्ड टैप करते हैं और टचस्क्रीन पर ज़रूरी सामान चुनते हैं। कन्वेयर पीछे से लॉकर भरता है, कर्मचारी केवल सामने वाला हिस्सा छूते हैं। हर निकासी की दो बार जाँच होती है, कम्पार्टमेंट के कैमरे और लोड सेल से, और एज पर लगे Raspberry Pi पर डिस्पेंस लॉग से मिलान होता है, जो चोरी, जाम और गलत गिनती को फ़्लैग करता है।",
+                     "خزانة صرف بمصادقة RFID مصمَّمة للعمل على مدار الساعة دون أمين مخزن. يمرّر الموظف بطاقته ويختار ما يحتاجه على شاشة لمس. يحمّل ناقل الخزائن من الخلف، ولا يلمس الموظفون إلا الواجهة. تُفحص كل عملية سحب مرتين، بكاميرا داخل الحجيرة وبخلية وزن، وتُطابق مع سجل الصرف على Raspberry Pi عند الطرف، فيُنبَّه إلى السرقة والانحشار وأخطاء العدّ.",
+                     "一個以 RFID 認證的取料櫃，設計為無需倉管人員值班、全天候運作。員工刷卡後在觸控螢幕上選擇所需物品。輸送帶從櫃子背面裝貨，員工只接觸正面。每次取用都經過兩道核對：櫃格內的攝影機與荷重元，並在邊緣端的樹莓派上與出料紀錄比對，自動標記失竊、卡料與計數錯誤。"
                  ],
     "wk.sf.s0":  [
                      "A lane pusher ejects one item from its stock lane.",
@@ -2345,11 +2345,11 @@ const source = {
                      "系統全貌：貨道、輸送帶、置物櫃牆和邊緣端後台。"
                  ],
     "wk.sh.tag":  [
-                     "The right door, not a diagnosis.",
-                     "指对门，而不是下诊断。",
-                     "सही दरवाज़ा, निदान नहीं।",
-                     "الباب الصحيح، لا التشخيص.",
-                     "指對門，而不是下診斷。"
+                     "Gets patients to the right care. It never diagnoses.",
+                     "帮助患者找到合适的医疗服务，但从不诊断。",
+                     "मरीज़ों को सही इलाज तक पहुँचाता है। यह कभी निदान नहीं करता।",
+                     "يوصل المرضى إلى الرعاية المناسبة، ولا يشخّص أبدًا.",
+                     "協助病患找到合適的醫療服務，但從不診斷。"
                  ],
     "wk.sh.problem":  [
                      "Patients often don't know whether to wait, see a doctor or go to the ER, and then face forms, insurer rules and phone queues before anything is booked. Many symptom checkers try to diagnose, which is unsafe and not something an AI should do.",
@@ -2359,11 +2359,11 @@ const source = {
                      "病人常常不知道該等等看、去看醫生，還是直接去急診；之後還要面對表格、保險規定和電話排隊，才能約上號。許多症狀自查工具試圖下診斷，這既不安全，也不該由 AI 來做。"
                  ],
     "wk.sh.built":  [
-                     "A care navigator that helps a patient choose the right next step, books it, and never diagnoses or prescribes. It pre-fills forms from Emirates ID, UAE PASS and insurer details, takes urgency from triage guidance instead of the model's memory, can phone the clinic for you, and works in Arabic and English. It was designed around the UAE's data protection law (PDPL). From the chat or a phone call, it also fills in the hospital intake form with symptoms, allergies and current medication, so the doctor has the details before the patient walks in.",
-                     "一个就医导航：帮病人选对下一步并完成预约，但从不诊断、从不开药。它用阿联酋身份证、UAE PASS 和保险资料预填表格，依据分诊指南而非模型记忆判断紧急程度，可以替你打电话给诊所，并支持阿拉伯语和英语。设计时遵循阿联酋个人数据保护法（PDPL）。它还会根据聊天或电话内容填写医院的问诊表，包括症状、过敏史和正在服用的药物，让医生在患者到诊前就掌握情况。",
-                     "एक केयर नेविगेटर जो मरीज़ को सही अगला कदम चुनने में मदद करता है, उसे बुक करता है, और कभी निदान या दवा नहीं बताता। यह Emirates ID, UAE PASS और बीमा जानकारी से फ़ॉर्म पहले से भरता है, मॉडल की याददाश्त के बजाय ट्राइएज गाइडेंस से तात्कालिकता तय करता है, आपके लिए क्लिनिक को फ़ोन कर सकता है, और अरबी व अंग्रेज़ी में चलता है। इसे UAE के डेटा संरक्षण कानून (PDPL) को ध्यान में रखकर बनाया गया। चैट या फ़ोन कॉल से यह अस्पताल का इनटेक फ़ॉर्म भी भर देता है, जिसमें लक्षण, एलर्जी और चल रही दवाएँ होती हैं, ताकि मरीज़ के आने से पहले डॉक्टर के पास पूरी जानकारी हो।",
-                     "مرشد رعاية يساعد المريض على اختيار الخطوة التالية الصحيحة ويحجزها، ولا يشخّص ولا يصف دواءً أبدًا. يملأ النماذج مسبقًا من الهوية الإماراتية وUAE PASS وبيانات التأمين، ويستمد درجة الإلحاح من إرشادات الفرز لا من ذاكرة النموذج، ويمكنه الاتصال بالعيادة نيابةً عنك، ويعمل بالعربية والإنجليزية. صُمّم وفق قانون حماية البيانات الشخصية الإماراتي. ومن المحادثة أو المكالمة الهاتفية، يملأ أيضًا نموذج الاستقبال في المستشفى بالأعراض والحساسية والأدوية الحالية، ليطّلع الطبيب على التفاصيل قبل وصول المريض.",
-                     "一個就醫導航：幫病人選對下一步並完成預約，但從不診斷、從不開藥。它用阿聯酋身分證、UAE PASS 和保險資料預填表格，依據分流指引而非模型記憶判斷緊急程度，可以替你打電話給診所，並支援阿拉伯語和英語。設計時遵循阿聯酋個人資料保護法（PDPL）。它還會根據聊天或電話內容填寫醫院的問診表，包括症狀、過敏史與正在服用的藥物，讓醫生在病患到診前就掌握情況。"
+                     "A care navigator that helps a patient choose the right next step and books it. It never diagnoses or prescribes. In the demo it reads an uploaded Emirates ID to pre-fill government and insurer forms, takes urgency from triage guidance instead of the model's memory, can phone the clinic for you, and works in Arabic and English. From the chat or a phone call it also fills in the hospital intake form with symptoms, allergies and current medication, so the doctor has the details before the patient walks in. We followed the UAE's data protection law (PDPL) when deciding what data it stores.",
+                     "一个就医导航，帮助患者选择合适的下一步并完成预约，但从不诊断或开药。在演示中，它读取上传的阿联酋身份证来预填政府和保险表格，依据分诊指南而非模型记忆判断紧急程度，可以替您致电诊所，并支持阿拉伯语和英语。它还会根据聊天或电话内容填写医院的问诊表，包括症状、过敏史和正在服用的药物，让医生在患者到诊前就掌握情况。在决定存储哪些数据时，我们遵循了阿联酋的数据保护法（PDPL）。",
+                     "एक केयर नेविगेटर जो मरीज़ को सही अगला कदम चुनने और उसे बुक करने में मदद करता है। यह कभी निदान नहीं करता और न ही दवा लिखता है। डेमो में यह अपलोड की गई Emirates ID पढ़कर सरकारी और बीमा फ़ॉर्म पहले से भरता है, तात्कालिकता मॉडल की याददाश्त से नहीं बल्कि ट्राइएज गाइडेंस से तय करता है, आपके लिए क्लिनिक को फ़ोन कर सकता है, और अरबी व अंग्रेज़ी में काम करता है। चैट या फ़ोन कॉल से यह अस्पताल का इनटेक फ़ॉर्म भी भर देता है, जिसमें लक्षण, एलर्जी और चल रही दवाएँ होती हैं, ताकि मरीज़ के आने से पहले डॉक्टर के पास पूरी जानकारी हो। कौन-सा डेटा रखना है, यह तय करते समय हमने UAE के डेटा संरक्षण कानून (PDPL) का पालन किया।",
+                     "مرشد رعاية يساعد المريض على اختيار الخطوة التالية المناسبة ويحجزها، دون أن يشخّص أو يصف دواءً أبدًا. في العرض التجريبي يقرأ بطاقة الهوية الإماراتية المرفوعة لتعبئة النماذج الحكومية ونماذج التأمين مسبقًا، ويحدد درجة الاستعجال من إرشادات الفرز لا من ذاكرة النموذج، ويمكنه الاتصال بالعيادة نيابةً عنك، ويعمل بالعربية والإنجليزية. ومن المحادثة أو المكالمة الهاتفية يملأ أيضًا نموذج الاستقبال في المستشفى بالأعراض والحساسية والأدوية الحالية، ليطّلع الطبيب على التفاصيل قبل وصول المريض. اتبعنا قانون حماية البيانات الإماراتي (PDPL) عند تحديد البيانات التي يخزّنها.",
+                     "一個就醫導航，協助病患選擇合適的下一步並完成預約，但從不診斷或開藥。在展示中，它讀取上傳的阿聯酋身分證來預填政府與保險表格，依據分診指引而非模型記憶判斷緊急程度，可以替您致電診所，並支援阿拉伯語與英語。它還會根據聊天或電話內容填寫醫院的問診表，包括症狀、過敏史與正在服用的藥物，讓醫生在病患到診前就掌握情況。在決定儲存哪些資料時，我們遵循了阿聯酋的資料保護法（PDPL）。"
                  ],
     "wk.sh.s0":  [
                      "The patient types “headache and blurry vision for 3 days”.",
@@ -2415,32 +2415,32 @@ const source = {
                      "不安全的問題？護欄直接攔下，病人會收到禮貌的拒絕和安全的下一步建議。出現危險徵兆？Shifa 會請你立即前往急診，且不會呼叫任何預約工具。"
                  ],
     "wk.sh.d0":  [
-                     "Gatekeeper guardrail: every question is checked before the AI sees it, so clever wording can't get around the rules.",
-                     "守门护栏：每个问题都在 AI 看到之前检查，换个说法也绕不过规则。",
-                     "गेटकीपर गार्डरेल: हर सवाल AI के देखने से पहले जाँचा जाता है, इसलिए चालाक शब्दों से नियम नहीं टूटते।",
-                     "حاجز أمان على البوابة: يُفحص كل سؤال قبل أن يراه الذكاء الاصطناعي، فلا تتجاوز الصياغة الذكية القواعد.",
-                     "守門護欄：每個問題都在 AI 看到之前檢查，換個說法也繞不過規則。"
+                     "Input checking: every question is checked by a guardrail before the model sees it. In testing it stopped 17 of 18 unsafe prompts on its own.",
+                     "输入检查：每个问题在模型看到之前都先经过护栏检查。测试中，它单独拦截了 18 个不安全提示中的 17 个。",
+                     "इनपुट जाँच: हर सवाल मॉडल तक पहुँचने से पहले एक गार्डरेल से जाँचा जाता है। टेस्टिंग में इसने अकेले 18 में से 17 असुरक्षित प्रॉम्प्ट रोके।",
+                     "فحص المدخلات: يُفحص كل سؤال بحاجز حماية قبل أن يراه النموذج. في الاختبارات أوقف وحده 17 من أصل 18 طلبًا غير آمن.",
+                     "輸入檢查：每個問題在模型看到之前都先經過護欄檢查。測試中，它單獨攔下了 18 個不安全提示中的 17 個。"
                  ],
     "wk.sh.d1":  [
-                     "Grounded triage: urgency comes from a triage knowledge base, not from the model's memory.",
-                     "有依据的分诊：紧急程度来自分诊知识库，而不是模型的记忆。",
-                     "आधारित ट्राइएज: तात्कालिकता ट्राइएज नॉलेज बेस से आती है, मॉडल की याददाश्त से नहीं।",
-                     "فرز مستند إلى مصدر: درجة الإلحاح تأتي من قاعدة معرفة للفرز، لا من ذاكرة النموذج.",
-                     "有依據的分流：緊急程度來自分流知識庫，而不是模型的記憶。"
+                     "Triage from guidance: urgency comes from a triage knowledge base, not from the model's memory.",
+                     "依据指南分诊：紧急程度来自分诊知识库，而不是模型的记忆。",
+                     "गाइडेंस से ट्राइएज: तात्कालिकता ट्राइएज नॉलेज बेस से तय होती है, मॉडल की याददाश्त से नहीं।",
+                     "الفرز من الإرشادات: تُحدَّد درجة الاستعجال من قاعدة معرفة للفرز، لا من ذاكرة النموذج.",
+                     "依據指引分診：緊急程度來自分診知識庫，而非模型的記憶。"
                  ],
     "wk.sh.d2":  [
-                     "Tools behind one secure door: the model picks tools at runtime through a single authenticated gateway (MCP).",
-                     "工具集中在一道安全门后：模型在运行时通过单一的认证网关（MCP）选用工具。",
-                     "एक सुरक्षित दरवाज़े के पीछे टूल्स: मॉडल रनटाइम पर एक ही प्रमाणित गेटवे (MCP) से टूल चुनता है।",
-                     "أدوات خلف باب آمن واحد: يختار النموذج الأدوات أثناء التشغيل عبر بوابة واحدة موثّقة (MCP).",
-                     "工具集中在一道安全門後：模型在執行時透過單一的認證閘道（MCP）選用工具。"
+                     "Single tool gateway: the model picks tools at runtime through one authenticated gateway (MCP).",
+                     "单一工具网关：模型在运行时通过一个经过认证的网关（MCP）选择工具。",
+                     "एक टूल गेटवे: मॉडल रनटाइम पर एक प्रमाणित गेटवे (MCP) के ज़रिए टूल चुनता है।",
+                     "بوابة أدوات واحدة: يختار النموذج الأدوات أثناء التشغيل عبر بوابة واحدة موثّقة (MCP).",
+                     "單一工具閘道：模型在執行時透過一個經認證的閘道（MCP）選擇工具。"
                  ],
     "wk.sh.d3":  [
-                     "Least exposure: the browser never holds cloud credentials, and tools only write data when booking.",
-                     "最小暴露：浏览器从不持有云端凭证，工具只在预约时才写入数据。",
-                     "न्यूनतम एक्सपोज़र: ब्राउज़र के पास कभी क्लाउड क्रेडेंशियल नहीं होते, और टूल सिर्फ़ बुकिंग के समय डेटा लिखते हैं।",
-                     "أقل قدر من الانكشاف: لا يحمل المتصفح بيانات اعتماد السحابة أبدًا، ولا تكتب الأدوات البيانات إلا عند الحجز.",
-                     "最小暴露：瀏覽器從不持有雲端憑證，工具只在預約時才寫入資料。"
+                     "No credentials in the browser: the browser never holds cloud credentials, and tools only write data when booking.",
+                     "浏览器不存凭证：浏览器从不持有云端凭证，工具只在预约时写入数据。",
+                     "ब्राउज़र में कोई क्रेडेंशियल नहीं: ब्राउज़र कभी क्लाउड क्रेडेंशियल नहीं रखता, और टूल केवल बुकिंग के समय डेटा लिखते हैं।",
+                     "لا بيانات اعتماد في المتصفح: لا يحتفظ المتصفح أبدًا ببيانات اعتماد السحابة، ولا تكتب الأدوات البيانات إلا عند الحجز.",
+                     "瀏覽器不存憑證：瀏覽器從不持有雲端憑證，工具只在預約時寫入資料。"
                  ],
     "wk.sh.c.journey":  [
                      "The care journey, from symptom to booking (demo data).",
@@ -2478,7 +2478,7 @@ const source = {
                      "按用量付費：全部運行於 AWS Lambda 無伺服器架構，無人使用時不必為伺服器付費。"
                  ],
     "hw.h2":  [
-                     "Things we've built",
+                     "Things we’ve built",
                      "我们做过的项目",
                      "हमने क्या बनाया है",
                      "ما بنيناه",
@@ -2492,25 +2492,25 @@ const source = {
                      "2026 年於競賽與黑客松中完成的三個專案，涵蓋邊緣 AI 硬體、AI 代理，以及基於感測器資料的機器學習。"
                  ],
     "wk.rl.for":  [
-                     "Nebula Hackathon",
-                     "Nebula 黑客松",
-                     "Nebula हैकाथॉन",
-                     "هاكاثون Nebula",
-                     "Nebula 黑客松"
+                     "Nebula-X Hackathon",
+                     "Nebula-X 黑客松",
+                     "Nebula-X हैकाथॉन",
+                     "هاكاثون Nebula-X",
+                     "Nebula-X 黑客松"
                  ],
     "wk.rl.outcome":  [
-                     "Working prototype with a scale model",
-                     "可运行原型与缩比模型",
-                     "स्केल मॉडल के साथ काम करता प्रोटोटाइप",
-                     "نموذج أولي عامل مع مجسّم مصغّر",
-                     "可運作原型與縮尺模型"
+                     "Working prototype, validated on a physical train model",
+                     "可运行原型，已在实体列车模型上验证",
+                     "काम करता प्रोटोटाइप, एक भौतिक ट्रेन मॉडल पर परखा गया",
+                     "نموذج أولي عامل، جرى التحقق منه على مجسّم قطار فعلي",
+                     "可運作原型，已於實體列車模型上驗證"
                  ],
     "wk.rl.tag":  [
-                     "Spotting faults in train systems before they cause delays.",
-                     "在列车系统故障造成延误之前发现它。",
-                     "ट्रेन सिस्टम की खराबी को देरी होने से पहले पकड़ना।",
-                     "اكتشاف أعطال أنظمة القطارات قبل أن تتسبب في التأخير.",
-                     "在列車系統故障造成延誤之前發現它。"
+                     "Comparing ML models to catch faults in train sensor data.",
+                     "比较多种机器学习模型，从列车传感器数据中发现故障。",
+                     "ट्रेन सेंसर डेटा में खराबी पकड़ने के लिए ML मॉडल की तुलना।",
+                     "مقارنة نماذج تعلّم الآلة لاكتشاف الأعطال في بيانات مستشعرات القطارات.",
+                     "比較多種機器學習模型，從列車感測器資料中發現故障。"
                  ],
     "wk.rl.problem":  [
                      "Trains produce a constant stream of sensor data from doors, bogies and air-conditioning. Faults usually show up in that data before anyone notices them on the platform, but the signals are noisy, and no single model works best for every system.",
@@ -2569,11 +2569,11 @@ const source = {
                      "一條可運作的流程：從原始列車訊號到標記出的異常。"
                  ],
     "wk.rl.r1.t":  [
-                     "Miniature models of the train, track and prototype, built to show the idea is feasible.",
-                     "制作了列车、轨道和原型的缩比模型，用来展示方案可行。",
-                     "ट्रेन, पटरियों और प्रोटोटाइप के छोटे मॉडल, यह दिखाने के लिए कि आइडिया व्यावहारिक है।",
-                     "مجسّمات مصغّرة للقطار والسكة والنموذج الأولي، صُنعت لإثبات أن الفكرة قابلة للتنفيذ.",
-                     "製作了列車、軌道與原型的縮尺模型，用來展示方案可行。"
+                     "A physical train prototype with miniature track, used to validate the system.",
+                     "带微型轨道的实体列车原型，用于验证系统。",
+                     "छोटी पटरियों के साथ एक भौतिक ट्रेन प्रोटोटाइप, जिससे सिस्टम को परखा गया।",
+                     "نموذج قطار فعلي مع سكة مصغّرة، استُخدم للتحقق من النظام.",
+                     "附微型軌道的實體列車原型，用於驗證系統。"
                  ],
     "wk.rl.c.arch":  [
                      "From train signals to anomaly flags.",
@@ -2581,6 +2581,13 @@ const source = {
                      "ट्रेन सिग्नल से एनॉमली फ़्लैग तक।",
                      "من إشارات القطار إلى رصد الحالات غير الطبيعية.",
                      "從列車訊號到異常標記。"
+                 ],
+    "wk.sf.est":  [
+                     "Our cost model estimates it would cut staff time spent issuing and counting stock by about half, reach around 95% inventory accuracy, and pay back the hardware in under a month. For comparison, commercial vending lockers cost SGD 4,000 to 15,000. These are estimates, not measured results.",
+                     "根据我们的成本模型估算，它可将发放和清点库存的人工时间减少约一半，库存准确率可达约 95%，硬件成本不到一个月即可回本。作为对比，商用自动售货柜的价格为 4,000 至 15,000 新元。以上均为估算，并非实测结果。",
+                     "हमारे कॉस्ट मॉडल के अनुमान के अनुसार यह स्टॉक देने और गिनने में लगने वाला स्टाफ़ का समय लगभग आधा कर देगा, इन्वेंटरी सटीकता लगभग 95% तक पहुँचाएगा, और एक महीने से कम में हार्डवेयर की लागत वसूल कर देगा। तुलना के लिए, कमर्शियल वेंडिंग लॉकर की कीमत SGD 4,000 से 15,000 होती है। ये अनुमान हैं, मापे गए नतीजे नहीं।",
+                     "يقدّر نموذج التكلفة لدينا أنه سيخفض وقت الموظفين المخصص لصرف المخزون وعدّه بنحو النصف، ويبلغ دقة مخزون تقارب 95%، ويسترد تكلفة العتاد في أقل من شهر. للمقارنة، تتراوح أسعار خزائن البيع التجارية بين 4,000 و15,000 دولار سنغافوري. هذه تقديرات وليست نتائج مقيسة.",
+                     "根據我們的成本模型估算，它可將發放與清點庫存的人力時間減少約一半，庫存準確率可達約 95%，硬體成本不到一個月即可回本。作為對照，商用自動販賣櫃的價格為 4,000 至 15,000 新幣。以上皆為估算，並非實測結果。"
                  ],
 };
 
