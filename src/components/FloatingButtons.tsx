@@ -12,30 +12,15 @@ export default function FloatingButtons() {
       : `https://line.me/ti/p/~${encodeURIComponent(SITE.line)}`
     : '';
 
-  const copyLine = async () => {
-    try {
-      await navigator.clipboard.writeText(SITE.phoneTW);
-    } catch { /* ignore */ }
-  };
-
   return (
     <>
       <a className="wa-float" href={waHref} target="_blank" rel="noopener" aria-label="WhatsApp">
         <WhatsAppIcon size={26} />
       </a>
-      {lineHref ? (
+      {lineHref && (
         <a className="wa-float line-float" href={lineHref} target="_blank" rel="noopener" aria-label="LINE">
           <LineIcon size={26} />
         </a>
-      ) : (
-        <button
-          className="wa-float line-float"
-          type="button"
-          aria-label="LINE"
-          onClick={copyLine}
-        >
-          <LineIcon size={26} />
-        </button>
       )}
     </>
   );

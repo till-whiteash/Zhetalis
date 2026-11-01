@@ -5,6 +5,7 @@ import storeflowBack from '@/assets/work/storeflow-back.jpg';
 import shifaJourney from '@/assets/work/shifa-journey.jpg';
 import shifaArch from '@/assets/work/shifa-architecture.jpg';
 import shifaArabic from '@/assets/work/shifa-arabic.jpg';
+import trainPipeline from '@/assets/work/train-anomaly-pipeline.svg';
 
 export interface Shot {
   src: string;
@@ -35,7 +36,8 @@ export interface Project {
   k: string;
   year: string;
   cover: Shot;
-  diagram: Shot;
+  /** left out when the cover already is the diagram */
+  diagram?: Shot;
   gallery: Shot[];
   /** heading key and step keys for the walkthrough */
   flowTitle: string;
@@ -68,10 +70,7 @@ export const PROJECTS: Project[] = [
     results: [
       { fig: 'SGD 318', text: 'wk.sf.r0.t' },
       { text: 'wk.sf.r1.t' },
-      { fig: '~50%', text: 'wk.sf.r2.t', projected: true },
-      { fig: '~95%', text: 'wk.sf.r3.t', projected: true },
-      { fig: '~95%', text: 'wk.sf.r4.t', projected: true },
-      { figKey: 'wk.sf.r5.f', text: 'wk.sf.r5.t', projected: true },
+      { text: 'wk.sf.est' },
     ],
     stack: ['Raspberry Pi', 'YOLO', 'Custom CNN', 'Load cells', 'RFID', 'SQL'],
   },
@@ -88,7 +87,7 @@ export const PROJECTS: Project[] = [
     flowTitle: 'wk.flowSh',
     flow: ['wk.sh.s0', 'wk.sh.s1', 'wk.sh.s2', 'wk.sh.s3', 'wk.sh.s4', 'wk.sh.s5'],
     safety: 'wk.sh.safety',
-    design: ['wk.sh.d0', 'wk.sh.d1', 'wk.sh.d2', 'wk.sh.d3'],
+    design: ['wk.sh.d0', 'wk.sh.d1', 'wk.sh.d2', 'wk.sh.d3', 'wk.sh.d4'],
     results: [
       { fig: '17/18', text: 'wk.sh.r0.t' },
       { text: 'wk.sh.r1.t' },
@@ -96,5 +95,20 @@ export const PROJECTS: Project[] = [
     ],
     stack: ['AWS Lambda', 'Bedrock AgentCore', 'Claude Sonnet 5', 'Claude Haiku 4.5', 'Bedrock Guardrails', 'DynamoDB', 'Twilio', 'Next.js'],
     code: 'https://github.com/manav2701/Team9Aws',
+  },
+  {
+    id: 'rail',
+    name: 'Rail Anomaly Detection',
+    k: 'wk.rl',
+    year: '2026',
+    cover: { src: trainPipeline, w: 1400, h: 780, cap: 'wk.rl.c.arch', kind: 'diagram' },
+    gallery: [],
+    flowTitle: 'wk.flow',
+    flow: ['wk.rl.s0', 'wk.rl.s1', 'wk.rl.s2', 'wk.rl.s3', 'wk.rl.s4'],
+    results: [
+      { text: 'wk.rl.r0.t' },
+      { text: 'wk.rl.r1.t' },
+    ],
+    stack: ['Python', 'Custom ML models', 'Data cleaning pipeline', 'Scale model'],
   },
 ];

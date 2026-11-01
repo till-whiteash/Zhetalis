@@ -3,12 +3,15 @@ import { useI18n } from '@/i18n/I18nProvider';
 import { STEPS } from '@/data/steps';
 import { useScrollProgress } from '@/hooks/useScrollProgress';
 import { useInView } from '@/hooks/useInView';
+import { useReducedMotion } from '@/hooks/useReducedMotion';
 
 export default function Approach() {
   const { t } = useI18n();
   const timelineRef = useRef<HTMLDivElement>(null);
   const [headRef, headIn] = useInView<HTMLDivElement>({ rootMargin: '0px 0px -10% 0px' });
-  const p = useScrollProgress(timelineRef, { start: 0.6, end: 0.4 });
+  const reduce = useReducedMotion();
+  const scroll = useScrollProgress(timelineRef, { start: 0.6, end: 0.4 });
+  const p = reduce ? 1 : scroll;
 
   return (
     <section className="section" id="approach">

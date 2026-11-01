@@ -23,6 +23,7 @@ export const TYPE_OPTIONS: readonly BriefOption[] = [
   { value: 'Internal system or automation', key: 'cp.t3' },
   { value: 'IoT or hardware',               key: 'cp.t4' },
   { value: 'AI or data',                    key: 'cp.t5' },
+  { value: 'Student or competition project', key: 'cp.t7' },
   { value: 'Something else',                key: 'cp.t6' },
 ];
 

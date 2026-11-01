@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 import { useI18n } from '@/i18n/I18nProvider';
 import { parseRichWords } from '@/i18n/rich';
-import { scrollToId, type LenisRef } from '@/lib/scrollTo';
+import type { LenisRef } from '@/lib/scrollTo';
 import { contactPath } from '@/lib/useSectionNav';
 import HeroCanvas from './HeroCanvas';
 import { ArrowIcon } from './icons';
@@ -12,18 +12,13 @@ interface Props {
   reduce: boolean;
 }
 
-export default function Hero({ lenisRef, reduce }: Props) {
+export default function Hero({ reduce }: Props) {
   const { t, lang } = useI18n();
   const innerRef = useRef<HTMLDivElement>(null);
   const headline = useMemo(
     () => parseRichWords(t('hero.h1'), lang.startsWith('zh')),
     [t, lang]
   );
-
-  const go = (e: React.MouseEvent, id: string) => {
-    e.preventDefault();
-    scrollToId(id, lenisRef, reduce);
-  };
 
   let headlineWordIndex = 0;
   const wordDelay = lang.startsWith('zh') ? 0.03 : 0.055;
@@ -90,9 +85,9 @@ export default function Hero({ lenisRef, reduce }: Props) {
               <span>{t('nav.book')}</span>
               <ArrowIcon className="ai" />
             </Link>
-            <a className="btn btn-line" href="#services" onClick={(e) => go(e, 'services')}>
+            <Link className="btn btn-line" to="/services">
               {t('hero.cta2')}
-            </a>
+            </Link>
           </div>
 
           <p className="meta fade-in" style={{ ['--d' as string]: '.9s' }}>
