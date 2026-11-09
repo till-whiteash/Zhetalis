@@ -12,6 +12,7 @@ const LOCALES: Record<string, string> = {
 };
 
 function guessCurrency(lang: string): Currency {
+  if (typeof window === 'undefined') return 'USD';
   let tz = '';
   try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch { /* ignore */ }
   const region = (navigator.language || '').split('-')[1]?.toUpperCase() ?? '';

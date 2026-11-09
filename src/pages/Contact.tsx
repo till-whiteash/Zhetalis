@@ -40,11 +40,6 @@ export default function ContactPage() {
   const now = useNow();
   const [copied, setCopied] = useState<string | null>(null);
 
-  useEffect(() => {
-    document.title = `${t('cp.title')} · Zhetalis`;
-    return () => { document.title = 'Zhetalis'; };
-  }, [t]);
-
   const time = (tz?: string) => {
     try {
       return new Intl.DateTimeFormat(LOCALES[lang] ?? 'en', { hour: 'numeric', minute: '2-digit', ...(tz ? { timeZone: tz } : {}) }).format(now);

@@ -16,6 +16,7 @@ import AboutPage from '@/pages/About';
 import WorkPage from '@/pages/Work';
 import ServicesPage from '@/pages/Services';
 import PackagesPage from '@/pages/Packages';
+import { ORIGIN, organization, pageFor } from '@/seo';
 
 export default function App() {
   const reduce = useReducedMotion();
@@ -25,6 +26,32 @@ export default function App() {
   const lenisRef = useLenis(smooth);
   const { pathname, hash } = useLocation();
   const onHome = pathname === '/';
+
+  useEffect(() => {
+    const page = pageFor(pathname);
+    if (!page) return;
+    document.title = page.title;
+    const meta = (selector: string, attributes: Record<string, string>) => {
+      const element = document.head.querySelector(selector) ?? document.head.appendChild(document.createElement('meta'));
+      for (const [name, value] of Object.entries(attributes)) element.setAttribute(name, value);
+    };
+    meta('meta[name="description"]', { name: 'description', content: page.description });
+    for (const [property, content] of Object.entries({ 'og:title': page.title, 'og:description': page.description, 'og:url': ORIGIN + page.path })) {
+      meta(`meta[property="${property}"]`, { property, content });
+    }
+    for (const [name, content] of Object.entries({ 'twitter:title': page.title, 'twitter:description': page.description })) {
+      meta(`meta[name="${name}"]`, { name, content });
+    }
+    const canonical = document.head.querySelector('link[rel="canonical"]') ?? document.head.appendChild(document.createElement('link'));
+    canonical.setAttribute('rel', 'canonical');
+    canonical.setAttribute('href', ORIGIN + page.path);
+    const structured = document.head.querySelector('script[type="application/ld+json"]');
+    if (onHome) {
+      const element = structured ?? document.head.appendChild(document.createElement('script'));
+      element.setAttribute('type', 'application/ld+json');
+      element.textContent = JSON.stringify(organization);
+    } else structured?.remove();
+  }, [pathname, onHome]);
 
   // The intro overlay only plays on the home page
   // ...and only when the visit starts there, not when coming back from /contact

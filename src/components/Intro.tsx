@@ -11,6 +11,7 @@ interface Props {
 
 export default function Intro({ onDone }: Props) {
   const [visible, setVisible] = useState(() => {
+    if (typeof window === 'undefined') return false;
     try {
       if (sessionStorage.getItem(SEEN_KEY) === '1') return false;
       sessionStorage.setItem(SEEN_KEY, '1');

@@ -5,15 +5,15 @@ import { useScrollProgress } from '@/hooks/useScrollProgress';
 import { useReducedMotion } from '@/hooks/useReducedMotion';
 
 export default function Manifesto() {
-  const { t, lang } = useI18n();
+  const { t } = useI18n();
   const ref = useRef<HTMLParagraphElement>(null);
-  const words = useMemo(() => parseRichWords(t('mani.text')), [t, lang]);
+  const words = useMemo(() => parseRichWords(t('mani.text')), [t]);
   const reduce = useReducedMotion();
   const p = useScrollProgress(ref, { start: 0.85, end: 0.35 });
 
   const total = words.filter((w) => !w.space).length;
   const litCount = reduce ? total : Math.round(p * total);
-  let lit = 0;
+
 
   return (
     <section className="manifesto" id="manifesto">
@@ -22,8 +22,8 @@ export default function Manifesto() {
         <p className="statement" ref={ref}>
           {words.map((w, i) => {
             if (w.space) return <span key={i}>{w.text}</span>;
-            const isLit = lit < litCount;
-            lit += 1;
+            const isLit = words.slice(0, i).filter(word => !word.space).length < litCount;
+
             return (
               <span
                 key={i}

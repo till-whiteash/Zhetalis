@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useI18n } from '@/i18n/I18nProvider';
 import { TEAM } from '@/data/team';
@@ -48,11 +47,6 @@ function initials(name: string): string {
 
 export default function AboutPage() {
   const { t } = useI18n();
-
-  useEffect(() => {
-    document.title = `${t('ab.title')} · Zhetalis`;
-    return () => { document.title = 'Zhetalis'; };
-  }, [t]);
 
   return (
     <main className="about">

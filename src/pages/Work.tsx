@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useI18n } from '@/i18n/I18nProvider';
 import { PROJECTS, type Project, type Result, type Shot } from '@/data/work';
@@ -128,11 +127,6 @@ function CaseStudy({ p }: { p: Project }) {
 
 export default function WorkPage() {
   const { t } = useI18n();
-
-  useEffect(() => {
-    document.title = `${t('wk.title')} · Zhetalis`;
-    return () => { document.title = 'Zhetalis'; };
-  }, [t]);
 
   return (
     <main className="work">

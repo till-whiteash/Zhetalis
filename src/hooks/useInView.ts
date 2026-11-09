@@ -4,16 +4,13 @@ export function useInView<T extends Element>(
   options?: IntersectionObserverInit
 ): readonly [React.RefObject<T | null>, boolean] {
   const ref = useRef<T | null>(null);
-  const [inView, setInView] = useState(false);
+  const [inView, setInView] = useState(() => typeof window === 'undefined' || !('IntersectionObserver' in window));
 
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
 
-    if (!('IntersectionObserver' in window)) {
-      setInView(true);
-      return;
-    }
+    if (!('IntersectionObserver' in window)) return;
 
     const io = new IntersectionObserver((entries) => {
       const e = entries[0];

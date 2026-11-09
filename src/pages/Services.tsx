@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { useI18n } from '@/i18n/I18nProvider';
 import Services from '@/components/Services';
 import Approach from '@/components/Approach';
@@ -6,11 +5,6 @@ import Contact from '@/components/Contact';
 
 export default function ServicesPage({ reduce }: { reduce: boolean }) {
   const { t } = useI18n();
-
-  useEffect(() => {
-    document.title = `${t('nav.services')} · Zhetalis`;
-    return () => { document.title = 'Zhetalis'; };
-  }, [t]);
 
   return (
     <main className="page">

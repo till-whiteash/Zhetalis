@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { useI18n } from '@/i18n/I18nProvider';
 import Packages from '@/components/Packages';
 import Faq from '@/components/Faq';
@@ -6,11 +5,6 @@ import Contact from '@/components/Contact';
 
 export default function PackagesPage() {
   const { t } = useI18n();
-
-  useEffect(() => {
-    document.title = `${t('nav.packages')} · Zhetalis`;
-    return () => { document.title = 'Zhetalis'; };
-  }, [t]);
 
   return (
     <main className="page">

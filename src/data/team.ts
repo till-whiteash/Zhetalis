@@ -36,7 +36,7 @@ export const TEAM: readonly TeamMember[] = [
   { name: 'James', role: 'Computer Engineering, ML/AI', photo: james },
   { name: 'Ewan', role: 'Co-founder · Research Engineer, NSYSU', base: 'Kaohsiung', photo: ewan },
   { name: 'Theodore', role: 'Mechatronics & Robotics', photo: theodore },
-  { name: 'Aaron', role: 'Co-founder · Computer Science & Application Development', photo: aaron },
+  { name: 'Aaron', role: 'Computer Science & Application Development', photo: aaron },
   { name: 'Llewis', role: 'Embedded Systems Engineer', photo: llewis },
   { name: 'Owen', role: 'Marine Engineer', photo: owen },
 ];
